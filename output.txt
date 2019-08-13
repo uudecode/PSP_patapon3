@@ -1,0 +1,3433 @@
+D:\git\PSP_patapon3\venv\Scripts\python.exe D:/git/PSP_patapon3/parse_and_print.py
+2019-08-12 20:37:23,811 Parsing data/originstatusparam
+2019-08-12 20:37:23,811 Read 336008 bytes
+Weapon: unit000_01_01
+Basic stats
+HP Base (100.0,)
+HP Scaling (1.5,)
+Weapon: unit001_01_01
+Basic stats
+HP Base (200.0,)
+HP Scaling (100.0,)
+Weapon: unit001_01_02
+Basic stats
+HP Base (200.0,)
+HP Scaling (100.0,)
+Weapon: unit002_01_01
+Basic stats
+HP Base (150.0,)
+HP Scaling (30.0,)
+Weapon: unit003_01_01
+Basic stats
+HP Base (300.0,)
+HP Scaling (60.0,)
+Weapon: unit004_01_01
+Basic stats
+HP Base (200.0,)
+HP Scaling (40.0,)
+Weapon: unit006_01_01
+Basic stats
+HP Base (240.0,)
+HP Scaling (48.0,)
+Weapon: unit007_01_01
+Basic stats
+HP Base (300.0,)
+HP Scaling (0.0,)
+Weapon: unit008_01_01
+Basic stats
+HP Base (110.0,)
+HP Scaling (0.0,)
+Weapon: unit009_01_01
+Basic stats
+HP Base (100.0,)
+HP Scaling (0.0,)
+Weapon: unit010_01_01
+Basic stats
+HP Base (350.0,)
+HP Scaling (70.0,)
+Weapon: unit013_01_01
+Basic stats
+HP Base (200.0,)
+HP Scaling (40.0,)
+Weapon: unit014_01_01
+Basic stats
+HP Base (300.0,)
+HP Scaling (60.0,)
+Weapon: unit015_01_01
+Basic stats
+HP Base (280.0,)
+HP Scaling (56.0,)
+Weapon: unit016_01_01
+Basic stats
+HP Base (320.0,)
+HP Scaling (64.0,)
+Weapon: unit017_01_01
+Basic stats
+HP Base (220.0,)
+HP Scaling (44.0,)
+Weapon: unit018_01_01
+Basic stats
+HP Base (300.0,)
+HP Scaling (60.0,)
+Weapon: unit018_01_03
+Basic stats
+HP Base (300.0,)
+HP Scaling (60.0,)
+Weapon: unit019_01_01
+Basic stats
+HP Base (320.0,)
+HP Scaling (64.0,)
+Weapon: unit020_01_01
+Basic stats
+HP Base (340.0,)
+HP Scaling (68.0,)
+Weapon: unit021_01_01
+Basic stats
+HP Base (300.0,)
+HP Scaling (60.0,)
+Weapon: unit022_01_01
+Basic stats
+HP Base (360.0,)
+HP Scaling (72.0,)
+Weapon: unit023_01_01
+Basic stats
+HP Base (150.0,)
+HP Scaling (30.0,)
+Weapon: unit024_01_01
+Basic stats
+HP Base (140.0,)
+HP Scaling (28.0,)
+Weapon: unit025_01_01
+Basic stats
+HP Base (140.0,)
+HP Scaling (28.0,)
+Weapon: unit026_01_01
+Basic stats
+HP Base (120.0,)
+HP Scaling (24.0,)
+Weapon: unit027_01_01
+Basic stats
+HP Base (120.0,)
+HP Scaling (24.0,)
+Weapon: unit028_01_01
+Basic stats
+HP Base (160.0,)
+HP Scaling (32.0,)
+Weapon: unit002_sh_01
+Basic stats
+HP Base (180.0,)
+HP Scaling (36.0,)
+Weapon: unit003_sh_01
+Basic stats
+HP Base (360.0,)
+HP Scaling (72.0,)
+Weapon: unit004_sh_01
+Basic stats
+HP Base (240.0,)
+HP Scaling (48.0,)
+Weapon: unit006_sh_01
+Basic stats
+HP Base (288.0,)
+HP Scaling (57.599998474121094,)
+Weapon: unit010_sh_01
+Basic stats
+HP Base (420.0,)
+HP Scaling (84.0,)
+Weapon: unit013_sh_01
+Basic stats
+HP Base (240.0,)
+HP Scaling (48.0,)
+Weapon: unit014_sh_01
+Basic stats
+HP Base (360.0,)
+HP Scaling (72.0,)
+Weapon: unit015_sh_01
+Basic stats
+HP Base (336.0,)
+HP Scaling (67.19999694824219,)
+Weapon: unit016_sh_01
+Basic stats
+HP Base (384.0,)
+HP Scaling (76.80000305175781,)
+Weapon: unit017_sh_01
+Basic stats
+HP Base (264.0,)
+HP Scaling (52.79999923706055,)
+Weapon: unit018_sh_01
+Basic stats
+HP Base (360.0,)
+HP Scaling (72.0,)
+Weapon: unit018_sh_03
+Basic stats
+HP Base (360.0,)
+HP Scaling (72.0,)
+Weapon: unit019_sh_01
+Basic stats
+HP Base (384.0,)
+HP Scaling (76.80000305175781,)
+Weapon: unit020_sh_01
+Basic stats
+HP Base (408.0,)
+HP Scaling (81.5999984741211,)
+Weapon: unit021_sh_01
+Basic stats
+HP Base (360.0,)
+HP Scaling (72.0,)
+Weapon: unit022_sh_01
+Basic stats
+HP Base (432.0,)
+HP Scaling (86.4000015258789,)
+Weapon: unit023_sh_01
+Basic stats
+HP Base (180.0,)
+HP Scaling (36.0,)
+Weapon: unit024_sh_01
+Basic stats
+HP Base (168.0,)
+HP Scaling (33.599998474121094,)
+Weapon: unit025_sh_01
+Basic stats
+HP Base (168.0,)
+HP Scaling (33.599998474121094,)
+Weapon: unit026_sh_01
+Basic stats
+HP Base (144.0,)
+HP Scaling (28.799999237060547,)
+Weapon: unit027_sh_01
+Basic stats
+HP Base (144.0,)
+HP Scaling (28.799999237060547,)
+Weapon: unit028_sh_01
+Basic stats
+HP Base (192.0,)
+HP Scaling (38.400001525878906,)
+Weapon: unit029_01_01
+Basic stats
+HP Base (450.0,)
+HP Scaling (90.0,)
+Weapon: unit030_01_01
+Basic stats
+HP Base (150.0,)
+HP Scaling (30.0,)
+Weapon: unit031_01_01
+Basic stats
+HP Base (500.0,)
+HP Scaling (100.0,)
+Weapon: unit032_01_01
+Basic stats
+HP Base (260.0,)
+HP Scaling (52.0,)
+Weapon: unit033_01_01
+Basic stats
+HP Base (400.0,)
+HP Scaling (80.0,)
+Weapon: unit034_01_01
+Basic stats
+HP Base (200.0,)
+HP Scaling (40.0,)
+Weapon: unit035_01_01
+Basic stats
+HP Base (350.0,)
+HP Scaling (70.0,)
+Weapon: unit029_02_01
+Basic stats
+HP Base (300.0,)
+HP Scaling (300.0,)
+Weapon: unit030_02_01
+Basic stats
+HP Base (300.0,)
+HP Scaling (300.0,)
+Weapon: unit031_02_01
+Basic stats
+HP Base (300.0,)
+HP Scaling (300.0,)
+Weapon: unit032_02_01
+Basic stats
+HP Base (300.0,)
+HP Scaling (300.0,)
+Weapon: unit033_02_01
+Basic stats
+HP Base (300.0,)
+HP Scaling (300.0,)
+Weapon: unit034_02_01
+Basic stats
+HP Base (300.0,)
+HP Scaling (300.0,)
+Weapon: unit035_02_01
+Basic stats
+HP Base (300.0,)
+HP Scaling (300.0,)
+Weapon: unit000_02_01
+Basic stats
+HP Base (100.0,)
+HP Scaling (1.5,)
+Weapon: unit001_02_01
+Basic stats
+HP Base (100.0,)
+HP Scaling (1.5,)
+Weapon: unit002_02_01
+Basic stats
+HP Base (30.0,)
+HP Scaling (1.5,)
+Weapon: unit003_02_01
+Basic stats
+HP Base (80.0,)
+HP Scaling (1.5,)
+Weapon: unit004_02_01
+Basic stats
+HP Base (40.0,)
+HP Scaling (1.5,)
+Weapon: unit006_02_01
+Basic stats
+HP Base (50.0,)
+HP Scaling (1.5,)
+Weapon: unit007_02_01
+Basic stats
+HP Base (300.0,)
+HP Scaling (1.5,)
+Weapon: unit008_02_01
+Basic stats
+HP Base (80.0,)
+HP Scaling (1.5,)
+Weapon: unit003_02_02
+Basic stats
+HP Base (5000.0,)
+HP Scaling (1.5,)
+Weapon: unit002_03_01
+Basic stats
+HP Base (30.0,)
+HP Scaling (1.5,)
+Weapon: unit003_03_01
+Basic stats
+HP Base (80.0,)
+HP Scaling (1.5,)
+Weapon: unit004_03_01
+Basic stats
+HP Base (40.0,)
+HP Scaling (1.5,)
+Weapon: unit006_03_01
+Basic stats
+HP Base (50.0,)
+HP Scaling (1.5,)
+Weapon: unit007_03_01
+Basic stats
+HP Base (300.0,)
+HP Scaling (1.5,)
+Weapon: unit008_03_01
+Basic stats
+HP Base (80.0,)
+HP Scaling (1.5,)
+Weapon: unit009_03_01
+Basic stats
+HP Base (80.0,)
+HP Scaling (1.5,)
+Weapon: unit010_03_01
+Basic stats
+HP Base (200.0,)
+HP Scaling (1.5,)
+Weapon: unit002_04_01
+Basic stats
+HP Base (40.0,)
+HP Scaling (16.0,)
+Weapon: unit003_04_01
+Basic stats
+HP Base (80.0,)
+HP Scaling (32.0,)
+Weapon: unit004_04_01
+Basic stats
+HP Base (50.0,)
+HP Scaling (20.0,)
+Weapon: unit006_04_01
+Basic stats
+HP Base (60.0,)
+HP Scaling (24.0,)
+Weapon: unit007_04_01
+Basic stats
+HP Base (120.0,)
+HP Scaling (48.0,)
+Weapon: unit008_04_01
+Basic stats
+HP Base (50.0,)
+HP Scaling (20.0,)
+Weapon: unit002_05_01
+Basic stats
+HP Base (30.0,)
+HP Scaling (12.0,)
+Weapon: unit003_05_01
+Basic stats
+HP Base (60.0,)
+HP Scaling (24.0,)
+Weapon: unit004_05_01
+Basic stats
+HP Base (40.0,)
+HP Scaling (16.0,)
+Weapon: unit006_05_01
+Basic stats
+HP Base (50.0,)
+HP Scaling (20.0,)
+Weapon: unit007_05_01
+Basic stats
+HP Base (80.0,)
+HP Scaling (32.0,)
+Weapon: unit008_05_01
+Basic stats
+HP Base (35.0,)
+HP Scaling (14.0,)
+Weapon: unit009_05_01
+Basic stats
+HP Base (25.0,)
+HP Scaling (10.0,)
+Weapon: unit010_05_01
+Basic stats
+HP Base (55.0,)
+HP Scaling (22.0,)
+Weapon: unit202_01_01
+Basic stats
+HP Base (50.0,)
+HP Scaling (5.0,)
+Weapon: unit209_01_01
+Basic stats
+HP Base (100.0,)
+HP Scaling (10.0,)
+Weapon: unit210_01_01
+Basic stats
+HP Base (8.0,)
+HP Scaling (0.0,)
+Weapon: unit203_01_01
+Basic stats
+HP Base (80.0,)
+HP Scaling (1.5,)
+Weapon: unit205_01_01
+Basic stats
+HP Base (1000.0,)
+HP Scaling (1.5,)
+Weapon: unit206_01_01
+Basic stats
+HP Base (500.0,)
+HP Scaling (1.5,)
+Weapon: unit207_01_01
+Basic stats
+HP Base (700.0,)
+HP Scaling (1.5,)
+Weapon: unit243_01_01
+Basic stats
+HP Base (900.0,)
+HP Scaling (1.5,)
+Weapon: unit219_01_01
+Basic stats
+HP Base (15000.0,)
+HP Scaling (1.5,)
+Weapon: unit218_01_01
+Basic stats
+HP Base (750.0,)
+HP Scaling (1.5,)
+Weapon: unit217_01_01
+Basic stats
+HP Base (600.0,)
+HP Scaling (1.5,)
+Weapon: unit204_01_01
+Basic stats
+HP Base (900.0,)
+HP Scaling (1.5,)
+Weapon: unit234_01_01
+Basic stats
+HP Base (120.0,)
+HP Scaling (1.5,)
+Weapon: unit235_01_01
+Basic stats
+HP Base (60.0,)
+HP Scaling (1.5,)
+Weapon: unit236_01_01
+Basic stats
+HP Base (50.0,)
+HP Scaling (1.5,)
+Weapon: unit239_01_01
+Basic stats
+HP Base (100.0,)
+HP Scaling (1.5,)
+Weapon: unit240_01_01
+Basic stats
+HP Base (800.0,)
+HP Scaling (1.5,)
+Weapon: unit241_01_01
+Basic stats
+HP Base (10.0,)
+HP Scaling (1.5,)
+Weapon: unit237_01_01
+Basic stats
+HP Base (500.0,)
+HP Scaling (250.0,)
+Weapon: unit201_01_01
+Basic stats
+HP Base (10000.0,)
+HP Scaling (5000.0,)
+Weapon: unit208_01_01
+Basic stats
+HP Base (4000.0,)
+HP Scaling (2000.0,)
+Weapon: unit242_01_01
+Basic stats
+HP Base (8000.0,)
+HP Scaling (4000.0,)
+Weapon: unit244_01_01
+Basic stats
+HP Base (3000.0,)
+HP Scaling (1500.0,)
+Weapon: unit220_01_01
+Basic stats
+HP Base (4000.0,)
+HP Scaling (2000.0,)
+Weapon: unit221_01_01
+Basic stats
+HP Base (6000.0,)
+HP Scaling (3000.0,)
+Weapon: unit215_01_01
+Basic stats
+HP Base (4500.0,)
+HP Scaling (2250.0,)
+Weapon: unit216_01_01
+Basic stats
+HP Base (6000.0,)
+HP Scaling (3000.0,)
+Weapon: unit211_01_01
+Basic stats
+HP Base (4500.0,)
+HP Scaling (2250.0,)
+Weapon: unit212_01_01
+Basic stats
+HP Base (6000.0,)
+HP Scaling (3000.0,)
+Weapon: unit213_01_01
+Basic stats
+HP Base (4000.0,)
+HP Scaling (2000.0,)
+Weapon: unit214_01_01
+Basic stats
+HP Base (6000.0,)
+HP Scaling (3000.0,)
+Weapon: unit222_01_01
+Basic stats
+HP Base (4000.0,)
+HP Scaling (2000.0,)
+Weapon: unit223_01_01
+Basic stats
+HP Base (6000.0,)
+HP Scaling (3000.0,)
+Weapon: unit224_01_01
+Basic stats
+HP Base (4000.0,)
+HP Scaling (2000.0,)
+Weapon: unit225_01_01
+Basic stats
+HP Base (6000.0,)
+HP Scaling (3000.0,)
+Weapon: unit226_01_01
+Basic stats
+HP Base (6000.0,)
+HP Scaling (3000.0,)
+Weapon: unit227_01_01
+Basic stats
+HP Base (9000.0,)
+HP Scaling (4500.0,)
+Weapon: unit228_01_01
+Basic stats
+HP Base (3000.0,)
+HP Scaling (1500.0,)
+Weapon: unit229_01_01
+Basic stats
+HP Base (4500.0,)
+HP Scaling (2250.0,)
+Weapon: unit230_01_01
+Basic stats
+HP Base (6000.0,)
+HP Scaling (3000.0,)
+Weapon: unit231_01_01
+Basic stats
+HP Base (9000.0,)
+HP Scaling (4500.0,)
+Weapon: unit232_01_01
+Basic stats
+HP Base (6000.0,)
+HP Scaling (3000.0,)
+Weapon: unit233_01_01
+Basic stats
+HP Base (9000.0,)
+HP Scaling (4500.0,)
+Weapon: unit245_01_01
+Basic stats
+HP Base (1200.0,)
+HP Scaling (600.0,)
+Weapon: unit266_01_01
+Basic stats
+HP Base (2000.0,)
+HP Scaling (1000.0,)
+Weapon: unit246_01_01
+Basic stats
+HP Base (4000.0,)
+HP Scaling (2000.0,)
+Weapon: unit247_01_01
+Basic stats
+HP Base (4000.0,)
+HP Scaling (2000.0,)
+Weapon: unit248_01_01
+Basic stats
+HP Base (8000.0,)
+HP Scaling (4000.0,)
+Weapon: unit249_01_01
+Basic stats
+HP Base (2000.0,)
+HP Scaling (1000.0,)
+Weapon: unit267_01_01
+Basic stats
+HP Base (8000.0,)
+HP Scaling (4000.0,)
+Weapon: unit250_01_01
+Basic stats
+HP Base (2500.0,)
+HP Scaling (1250.0,)
+Weapon: unit268_01_01
+Basic stats
+HP Base (10000.0,)
+HP Scaling (5000.0,)
+Weapon: unit251_01_01
+Basic stats
+HP Base (1000.0,)
+HP Scaling (500.0,)
+Weapon: unit269_01_01
+Basic stats
+HP Base (2000.0,)
+HP Scaling (1000.0,)
+Weapon: unit252_01_01
+Basic stats
+HP Base (1500.0,)
+HP Scaling (750.0,)
+Weapon: unit270_01_01
+Basic stats
+HP Base (6000.0,)
+HP Scaling (3000.0,)
+Weapon: unit253_01_01
+Basic stats
+HP Base (1250.0,)
+HP Scaling (625.0,)
+Weapon: unit271_01_01
+Basic stats
+HP Base (6000.0,)
+HP Scaling (3000.0,)
+Weapon: unit254_01_01
+Basic stats
+HP Base (1200.0,)
+HP Scaling (600.0,)
+Weapon: unit272_01_01
+Basic stats
+HP Base (1200.0,)
+HP Scaling (600.0,)
+Weapon: unit255_01_01
+Basic stats
+HP Base (2000.0,)
+HP Scaling (1000.0,)
+Weapon: unit273_01_01
+Basic stats
+HP Base (8000.0,)
+HP Scaling (4000.0,)
+Weapon: unit256_01_01
+Basic stats
+HP Base (3000.0,)
+HP Scaling (1500.0,)
+Weapon: unit274_01_01
+Basic stats
+HP Base (3000.0,)
+HP Scaling (1500.0,)
+Weapon: unit257_01_01
+Basic stats
+HP Base (8000.0,)
+HP Scaling (4000.0,)
+Weapon: unit258_01_01
+Basic stats
+HP Base (10000.0,)
+HP Scaling (5000.0,)
+Weapon: unit259_01_01
+Basic stats
+HP Base (12000.0,)
+HP Scaling (6000.0,)
+Weapon: unit260_01_01
+Basic stats
+HP Base (8000.0,)
+HP Scaling (4000.0,)
+Weapon: unit260_02_01
+Basic stats
+HP Base (8000.0,)
+HP Scaling (4000.0,)
+Weapon: unit260_03_01
+Basic stats
+HP Base (8000.0,)
+HP Scaling (4000.0,)
+Weapon: unit261_01_01
+Basic stats
+HP Base (12000.0,)
+HP Scaling (6000.0,)
+Weapon: unit261_02_01
+Basic stats
+HP Base (12000.0,)
+HP Scaling (6000.0,)
+Weapon: unit261_03_01
+Basic stats
+HP Base (12000.0,)
+HP Scaling (6000.0,)
+Weapon: unit262_01_01
+Basic stats
+HP Base (16000.0,)
+HP Scaling (8000.0,)
+Weapon: unit262_02_01
+Basic stats
+HP Base (16000.0,)
+HP Scaling (8000.0,)
+Weapon: unit262_03_01
+Basic stats
+HP Base (16000.0,)
+HP Scaling (8000.0,)
+Weapon: unit263_01_01
+Basic stats
+HP Base (10000.0,)
+HP Scaling (5000.0,)
+Weapon: unit263_02_01
+Basic stats
+HP Base (10000.0,)
+HP Scaling (5000.0,)
+Weapon: unit263_03_01
+Basic stats
+HP Base (10000.0,)
+HP Scaling (5000.0,)
+Weapon: unit264_01_01
+Basic stats
+HP Base (15000.0,)
+HP Scaling (7500.0,)
+Weapon: unit264_02_01
+Basic stats
+HP Base (15000.0,)
+HP Scaling (7500.0,)
+Weapon: unit264_03_01
+Basic stats
+HP Base (15000.0,)
+HP Scaling (7500.0,)
+Weapon: unit265_01_01
+Basic stats
+HP Base (20000.0,)
+HP Scaling (10000.0,)
+Weapon: unit265_02_01
+Basic stats
+HP Base (20000.0,)
+HP Scaling (10000.0,)
+Weapon: unit265_03_01
+Basic stats
+HP Base (20000.0,)
+HP Scaling (10000.0,)
+Weapon: hlm007_0_1000
+Basic stats
+HP Base (0.0,)
+HP Scaling (1.0,)
+Weapon: hlm007_0_1001
+Basic stats
+HP Base (100.0,)
+HP Scaling (1.0,)
+Weapon: hlm007_0_1002
+Basic stats
+HP Base (300.0,)
+HP Scaling (1.0,)
+Weapon: hlm008_0_1000
+Basic stats
+HP Base (0.0,)
+HP Scaling (1.0,)
+Weapon: hlm008_0_1001
+Basic stats
+HP Base (0.0,)
+HP Scaling (1.0,)
+Weapon: hlm008_0_1002
+Basic stats
+HP Base (0.0,)
+HP Scaling (1.0,)
+Weapon: hlm009_0_1000
+Basic stats
+HP Base (0.0,)
+HP Scaling (1.0,)
+Weapon: hlm009_0_1001
+Basic stats
+HP Base (0.0,)
+HP Scaling (1.0,)
+Weapon: hlm009_0_1002
+Basic stats
+HP Base (0.0,)
+HP Scaling (1.0,)
+Weapon: hlm006_1_0101
+Basic stats
+HP Base (0.0,)
+HP Scaling (1.0,)
+Weapon: hlm006_1_0102
+Basic stats
+HP Base (50.0,)
+HP Scaling (1.0,)
+Weapon: hlm006_1_0103
+Basic stats
+HP Base (100.0,)
+HP Scaling (1.0,)
+Weapon: hlm006_1_0104
+Basic stats
+HP Base (200.0,)
+HP Scaling (1.0,)
+Weapon: hlm006_1_0105
+Basic stats
+HP Base (400.0,)
+HP Scaling (1.0,)
+Weapon: hlm006_1_0106
+Basic stats
+HP Base (-1.0,)
+HP Scaling (1.0,)
+Weapon: hlm006_1_0107
+Basic stats
+HP Base (-1.0,)
+HP Scaling (1.0,)
+Weapon: hlm006_1_0108
+Basic stats
+HP Base (-1.0,)
+HP Scaling (1.0,)
+Weapon: hlm006_1_0109
+Basic stats
+HP Base (-1.0,)
+HP Scaling (1.0,)
+Weapon: hlm006_1_0110
+Basic stats
+HP Base (-1.0,)
+HP Scaling (1.0,)
+Weapon: hlm000_0_0101
+Basic stats
+HP Base (0.0,)
+HP Scaling (1.0,)
+Weapon: hlm000_0_0102
+Basic stats
+HP Base (30.0,)
+HP Scaling (1.0,)
+Weapon: hlm000_0_0103
+Basic stats
+HP Base (60.0,)
+HP Scaling (1.0,)
+Weapon: hlm000_0_0104
+Basic stats
+HP Base (120.0,)
+HP Scaling (1.0,)
+Weapon: hlm000_0_0105
+Basic stats
+HP Base (240.0,)
+HP Scaling (1.0,)
+Weapon: hlm000_0_0106
+Basic stats
+HP Base (480.0,)
+HP Scaling (1.0,)
+Weapon: hlm000_0_0107
+Basic stats
+HP Base (0.0,)
+HP Scaling (1.0,)
+Weapon: hlm000_0_0108
+Basic stats
+HP Base (999.0,)
+HP Scaling (1.0,)
+Weapon: hlm000_0_0109
+Basic stats
+HP Base (999.0,)
+HP Scaling (1.0,)
+Weapon: hlm007_0_0101
+Basic stats
+HP Base (0.0,)
+HP Scaling (1.0,)
+Weapon: hlm007_0_0102
+Basic stats
+HP Base (999.0,)
+HP Scaling (1.0,)
+Weapon: hlm008_0_0101
+Basic stats
+HP Base (0.0,)
+HP Scaling (1.0,)
+Weapon: hlm000_0_0201
+Basic stats
+HP Base (0.0,)
+HP Scaling (1.0,)
+Weapon: hlm006_1_0201
+Basic stats
+HP Base (0.0,)
+HP Scaling (1.0,)
+Weapon: hlm006_1_0202
+Basic stats
+HP Base (0.0,)
+HP Scaling (1.0,)
+Weapon: hlm006_1_0203
+Basic stats
+HP Base (0.0,)
+HP Scaling (1.0,)
+Weapon: hlm006_1_0204
+Basic stats
+HP Base (0.0,)
+HP Scaling (1.0,)
+Weapon: hlm006_1_0205
+Basic stats
+HP Base (0.0,)
+HP Scaling (1.0,)
+Weapon: msk200_0_001
+Basic stats
+HP Base (20.0,)
+HP Scaling (1.0,)
+Weapon: msk200_0_002
+Basic stats
+HP Base (40.0,)
+HP Scaling (1.0,)
+Weapon: msk200_0_003
+Basic stats
+HP Base (80.0,)
+HP Scaling (1.0,)
+Weapon: msk200_0_004
+Basic stats
+HP Base (160.0,)
+HP Scaling (1.0,)
+Weapon: msk200_0_005
+Basic stats
+HP Base (320.0,)
+HP Scaling (1.0,)
+Weapon: msk200_0_006
+Basic stats
+HP Base (0.0,)
+HP Scaling (1.0,)
+Weapon: msk200_0_007
+Basic stats
+HP Base (0.0,)
+HP Scaling (1.0,)
+Weapon: msk200_0_008
+Basic stats
+HP Base (0.0,)
+HP Scaling (1.0,)
+Weapon: msk207_0_001
+Basic stats
+HP Base (100.0,)
+HP Scaling (1.0,)
+Weapon: msk207_0_002
+Basic stats
+HP Base (200.0,)
+HP Scaling (1.0,)
+Weapon: msk207_0_003
+Basic stats
+HP Base (400.0,)
+HP Scaling (1.0,)
+Weapon: hlm000_0_0202
+Basic stats
+HP Base (0.0,)
+HP Scaling (1.0,)
+Weapon: hlm000_0_0203
+Basic stats
+HP Base (100.0,)
+HP Scaling (20.0,)
+Weapon: hlm007_0_0201
+Basic stats
+HP Base (0.0,)
+HP Scaling (1.0,)
+Weapon: hlm006_1_0206
+Basic stats
+HP Base (0.0,)
+HP Scaling (1.0,)
+Weapon: hlm006_1_0207
+Basic stats
+HP Base (0.0,)
+HP Scaling (1.0,)
+Weapon: hlm006_1_0208
+Basic stats
+HP Base (0.0,)
+HP Scaling (1.0,)
+Weapon: hlm006_1_0209
+Basic stats
+HP Base (0.0,)
+HP Scaling (1.0,)
+Weapon: hlm006_1_0210
+Basic stats
+HP Base (0.0,)
+HP Scaling (1.0,)
+Weapon: msk200_0_009
+Basic stats
+HP Base (0.0,)
+HP Scaling (1.0,)
+Weapon: equip000_000
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip000_100
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip000_101
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip000_102
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip000_200
+Basic stats
+HP Base (20.0,)
+HP Scaling (4.0,)
+Weapon: equip000_201
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip000_202
+Basic stats
+HP Base (100.0,)
+HP Scaling (20.0,)
+Weapon: equip000_203
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip000_204
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip000_300
+Basic stats
+HP Base (1000.0,)
+HP Scaling (0.0,)
+Weapon: equip001_000
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip001_100
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip001_101
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip001_200
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip001_201
+Basic stats
+HP Base (-200.0,)
+HP Scaling (-20.0,)
+Weapon: equip001_202
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip001_300
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip002_000
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip002_100
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip002_101
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip002_102
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip002_200
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip002_201
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip002_202
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip002_203
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip002_204
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip002_300
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip003_000
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip003_100
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip003_101
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip003_200
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip003_201
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip003_202
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip003_300
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip004_000
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip004_100
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip004_101
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip004_102
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip004_200
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip004_201
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip004_202
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip004_203
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip004_204
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip004_300
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip005_000
+Basic stats
+HP Base (100.0,)
+HP Scaling (0.0,)
+Weapon: equip005_100
+Basic stats
+HP Base (100.0,)
+HP Scaling (30.0,)
+Weapon: equip005_101
+Basic stats
+HP Base (100.0,)
+HP Scaling (30.0,)
+Weapon: equip005_102
+Basic stats
+HP Base (100.0,)
+HP Scaling (30.0,)
+Weapon: equip005_200
+Basic stats
+HP Base (120.0,)
+HP Scaling (60.0,)
+Weapon: equip005_201
+Basic stats
+HP Base (200.0,)
+HP Scaling (100.0,)
+Weapon: equip005_202
+Basic stats
+HP Base (100.0,)
+HP Scaling (50.0,)
+Weapon: equip005_203
+Basic stats
+HP Base (120.0,)
+HP Scaling (60.0,)
+Weapon: equip005_204
+Basic stats
+HP Base (150.0,)
+HP Scaling (75.0,)
+Weapon: equip005_300
+Basic stats
+HP Base (20000.0,)
+HP Scaling (0.0,)
+Weapon: equip006_000
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip006_100
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip006_101
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip006_200
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip006_201
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip006_300
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip007_000
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip007_100
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip007_200
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip007_201
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip007_202
+Basic stats
+HP Base (200.0,)
+HP Scaling (100.0,)
+Weapon: equip007_300
+Basic stats
+HP Base (15000.0,)
+HP Scaling (0.0,)
+Weapon: equip008_000
+Basic stats
+HP Base (200.0,)
+HP Scaling (0.0,)
+Weapon: equip008_100
+Basic stats
+HP Base (200.0,)
+HP Scaling (60.0,)
+Weapon: equip008_101
+Basic stats
+HP Base (200.0,)
+HP Scaling (60.0,)
+Weapon: equip008_200
+Basic stats
+HP Base (200.0,)
+HP Scaling (100.0,)
+Weapon: equip008_201
+Basic stats
+HP Base (300.0,)
+HP Scaling (150.0,)
+Weapon: equip008_202
+Basic stats
+HP Base (250.0,)
+HP Scaling (125.0,)
+Weapon: equip008_300
+Basic stats
+HP Base (20000.0,)
+HP Scaling (0.0,)
+Weapon: equip009_000
+Basic stats
+HP Base (100.0,)
+HP Scaling (0.0,)
+Weapon: equip009_100
+Basic stats
+HP Base (100.0,)
+HP Scaling (30.0,)
+Weapon: equip009_101
+Basic stats
+HP Base (100.0,)
+HP Scaling (30.0,)
+Weapon: equip009_200
+Basic stats
+HP Base (100.0,)
+HP Scaling (50.0,)
+Weapon: equip009_201
+Basic stats
+HP Base (150.0,)
+HP Scaling (75.0,)
+Weapon: equip009_202
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip009_300
+Basic stats
+HP Base (12000.0,)
+HP Scaling (0.0,)
+Weapon: equip010_000
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip010_100
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip010_101
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip010_200
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip010_201
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip010_202
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip010_300
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip011_000
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip011_100
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip011_101
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip011_200
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip011_201
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip011_202
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip011_300
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip012_000
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip012_100
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip012_101
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip012_200
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip012_201
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip012_202
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip012_300
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip013_000
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip013_100
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip013_101
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip013_200
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip013_201
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip013_202
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip013_300
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip014_000
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip014_100
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip014_101
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip014_200
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip014_201
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip014_202
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip014_300
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip016_000
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip016_100
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip016_101
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip016_200
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip016_201
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip016_202
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip016_300
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip017_000
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip017_100
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip017_101
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip017_200
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip017_201
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip017_202
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip017_300
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip018_000
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip018_100
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip018_101
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip018_200
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip018_201
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip018_202
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip018_300
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip019_000
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip019_100
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip019_101
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip019_102
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip019_200
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip019_201
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip019_202
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip019_203
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip019_204
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip019_300
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip020_000
+Basic stats
+HP Base (20.0,)
+HP Scaling (0.0,)
+Weapon: equip020_100
+Basic stats
+HP Base (20.0,)
+HP Scaling (4.0,)
+Weapon: equip020_101
+Basic stats
+HP Base (20.0,)
+HP Scaling (4.0,)
+Weapon: equip020_102
+Basic stats
+HP Base (20.0,)
+HP Scaling (4.0,)
+Weapon: equip020_200
+Basic stats
+HP Base (40.0,)
+HP Scaling (8.0,)
+Weapon: equip020_201
+Basic stats
+HP Base (50.0,)
+HP Scaling (10.0,)
+Weapon: equip020_202
+Basic stats
+HP Base (60.0,)
+HP Scaling (12.0,)
+Weapon: equip020_203
+Basic stats
+HP Base (70.0,)
+HP Scaling (14.0,)
+Weapon: equip020_204
+Basic stats
+HP Base (80.0,)
+HP Scaling (16.0,)
+Weapon: equip020_300
+Basic stats
+HP Base (4000.0,)
+HP Scaling (0.0,)
+Weapon: equip021_000
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip021_100
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip021_200
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip021_201
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip021_300
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip022_000
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip022_100
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip022_200
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip022_201
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip022_300
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip023_000
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip023_100
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip023_200
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip023_201
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip023_300
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip024_000
+Basic stats
+HP Base (50.0,)
+HP Scaling (0.0,)
+Weapon: equip024_100
+Basic stats
+HP Base (50.0,)
+HP Scaling (15.0,)
+Weapon: equip024_101
+Basic stats
+HP Base (50.0,)
+HP Scaling (15.0,)
+Weapon: equip024_102
+Basic stats
+HP Base (50.0,)
+HP Scaling (15.0,)
+Weapon: equip024_200
+Basic stats
+HP Base (60.0,)
+HP Scaling (30.0,)
+Weapon: equip024_201
+Basic stats
+HP Base (30.0,)
+HP Scaling (15.0,)
+Weapon: equip024_202
+Basic stats
+HP Base (650.0,)
+HP Scaling (20.0,)
+Weapon: equip024_203
+Basic stats
+HP Base (120.0,)
+HP Scaling (60.0,)
+Weapon: equip024_204
+Basic stats
+HP Base (150.0,)
+HP Scaling (75.0,)
+Weapon: equip024_300
+Basic stats
+HP Base (12000.0,)
+HP Scaling (0.0,)
+Weapon: equip025_000
+Basic stats
+HP Base (100.0,)
+HP Scaling (0.0,)
+Weapon: equip025_100
+Basic stats
+HP Base (100.0,)
+HP Scaling (30.0,)
+Weapon: equip025_101
+Basic stats
+HP Base (100.0,)
+HP Scaling (30.0,)
+Weapon: equip025_102
+Basic stats
+HP Base (100.0,)
+HP Scaling (30.0,)
+Weapon: equip025_200
+Basic stats
+HP Base (120.0,)
+HP Scaling (60.0,)
+Weapon: equip025_201
+Basic stats
+HP Base (160.0,)
+HP Scaling (80.0,)
+Weapon: equip025_202
+Basic stats
+HP Base (500.0,)
+HP Scaling (80.0,)
+Weapon: equip025_203
+Basic stats
+HP Base (-200.0,)
+HP Scaling (-10.0,)
+Weapon: equip025_204
+Basic stats
+HP Base (200.0,)
+HP Scaling (100.0,)
+Weapon: equip025_300
+Basic stats
+HP Base (20000.0,)
+HP Scaling (0.0,)
+Weapon: equip026_000
+Basic stats
+HP Base (200.0,)
+HP Scaling (0.0,)
+Weapon: equip026_100
+Basic stats
+HP Base (200.0,)
+HP Scaling (60.0,)
+Weapon: equip026_101
+Basic stats
+HP Base (200.0,)
+HP Scaling (60.0,)
+Weapon: equip026_200
+Basic stats
+HP Base (300.0,)
+HP Scaling (150.0,)
+Weapon: equip026_201
+Basic stats
+HP Base (400.0,)
+HP Scaling (200.0,)
+Weapon: equip026_202
+Basic stats
+HP Base (500.0,)
+HP Scaling (250.0,)
+Weapon: equip026_300
+Basic stats
+HP Base (80000.0,)
+HP Scaling (0.0,)
+Weapon: equip027_000
+Basic stats
+HP Base (150.0,)
+HP Scaling (0.0,)
+Weapon: equip027_100
+Basic stats
+HP Base (150.0,)
+HP Scaling (45.0,)
+Weapon: equip027_101
+Basic stats
+HP Base (150.0,)
+HP Scaling (45.0,)
+Weapon: equip027_200
+Basic stats
+HP Base (100.0,)
+HP Scaling (50.0,)
+Weapon: equip027_201
+Basic stats
+HP Base (200.0,)
+HP Scaling (100.0,)
+Weapon: equip027_202
+Basic stats
+HP Base (250.0,)
+HP Scaling (125.0,)
+Weapon: equip027_300
+Basic stats
+HP Base (45000.0,)
+HP Scaling (0.0,)
+Weapon: equip028_000
+Basic stats
+HP Base (40.0,)
+HP Scaling (0.0,)
+Weapon: equip028_100
+Basic stats
+HP Base (40.0,)
+HP Scaling (12.0,)
+Weapon: equip028_101
+Basic stats
+HP Base (40.0,)
+HP Scaling (12.0,)
+Weapon: equip028_200
+Basic stats
+HP Base (60.0,)
+HP Scaling (30.0,)
+Weapon: equip028_201
+Basic stats
+HP Base (80.0,)
+HP Scaling (40.0,)
+Weapon: equip028_202
+Basic stats
+HP Base (100.0,)
+HP Scaling (50.0,)
+Weapon: equip028_300
+Basic stats
+HP Base (6000.0,)
+HP Scaling (0.0,)
+Weapon: equip029_000
+Basic stats
+HP Base (10.0,)
+HP Scaling (0.0,)
+Weapon: equip029_100
+Basic stats
+HP Base (30.0,)
+HP Scaling (9.0,)
+Weapon: equip029_101
+Basic stats
+HP Base (30.0,)
+HP Scaling (9.0,)
+Weapon: equip029_200
+Basic stats
+HP Base (150.0,)
+HP Scaling (75.0,)
+Weapon: equip029_201
+Basic stats
+HP Base (40.0,)
+HP Scaling (20.0,)
+Weapon: equip029_202
+Basic stats
+HP Base (50.0,)
+HP Scaling (25.0,)
+Weapon: equip029_300
+Basic stats
+HP Base (6000.0,)
+HP Scaling (0.0,)
+Weapon: equip030_000
+Basic stats
+HP Base (40.0,)
+HP Scaling (0.0,)
+Weapon: equip030_100
+Basic stats
+HP Base (60.0,)
+HP Scaling (18.0,)
+Weapon: equip030_101
+Basic stats
+HP Base (60.0,)
+HP Scaling (18.0,)
+Weapon: equip030_200
+Basic stats
+HP Base (80.0,)
+HP Scaling (40.0,)
+Weapon: equip030_201
+Basic stats
+HP Base (3040.0,)
+HP Scaling (300.0,)
+Weapon: equip030_202
+Basic stats
+HP Base (100.0,)
+HP Scaling (50.0,)
+Weapon: equip030_300
+Basic stats
+HP Base (12000.0,)
+HP Scaling (0.0,)
+Weapon: equip031_000
+Basic stats
+HP Base (100.0,)
+HP Scaling (0.0,)
+Weapon: equip031_100
+Basic stats
+HP Base (100.0,)
+HP Scaling (30.0,)
+Weapon: equip031_101
+Basic stats
+HP Base (100.0,)
+HP Scaling (30.0,)
+Weapon: equip031_200
+Basic stats
+HP Base (170.0,)
+HP Scaling (85.0,)
+Weapon: equip031_201
+Basic stats
+HP Base (500.0,)
+HP Scaling (250.0,)
+Weapon: equip031_202
+Basic stats
+HP Base (240.0,)
+HP Scaling (120.0,)
+Weapon: equip031_300
+Basic stats
+HP Base (30000.0,)
+HP Scaling (0.0,)
+Weapon: equip032_000
+Basic stats
+HP Base (150.0,)
+HP Scaling (0.0,)
+Weapon: equip032_100
+Basic stats
+HP Base (150.0,)
+HP Scaling (45.0,)
+Weapon: equip032_101
+Basic stats
+HP Base (150.0,)
+HP Scaling (45.0,)
+Weapon: equip032_102
+Basic stats
+HP Base (150.0,)
+HP Scaling (45.0,)
+Weapon: equip032_200
+Basic stats
+HP Base (300.0,)
+HP Scaling (150.0,)
+Weapon: equip032_201
+Basic stats
+HP Base (150.0,)
+HP Scaling (75.0,)
+Weapon: equip032_202
+Basic stats
+HP Base (200.0,)
+HP Scaling (100.0,)
+Weapon: equip032_203
+Basic stats
+HP Base (100.0,)
+HP Scaling (50.0,)
+Weapon: equip032_204
+Basic stats
+HP Base (500.0,)
+HP Scaling (250.0,)
+Weapon: equip032_300
+Basic stats
+HP Base (45000.0,)
+HP Scaling (0.0,)
+Weapon: equip033_002
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip033_003
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip033_004
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip033_006
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip033_010
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip033_013
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip033_014
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip033_015
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip033_016
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip033_017
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip033_018
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip033_019
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip033_020
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip033_021
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip033_022
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip033_023
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip033_024
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip033_025
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip033_026
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip033_027
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip033_028
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip033_029
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip033_030
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip033_031
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip033_032
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip033_033
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip033_034
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip033_035
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip033_100
+Basic stats
+HP Base (50.0,)
+HP Scaling (20.0,)
+Weapon: equip033_101
+Basic stats
+HP Base (100.0,)
+HP Scaling (40.0,)
+Weapon: equip033_102
+Basic stats
+HP Base (200.0,)
+HP Scaling (80.0,)
+Weapon: equip033_103
+Basic stats
+HP Base (300.0,)
+HP Scaling (120.0,)
+Weapon: equip033_104
+Basic stats
+HP Base (400.0,)
+HP Scaling (160.0,)
+Weapon: equip033_105
+Basic stats
+HP Base (100.0,)
+HP Scaling (40.0,)
+Weapon: equip033_106
+Basic stats
+HP Base (300.0,)
+HP Scaling (120.0,)
+Weapon: equip033_107
+Basic stats
+HP Base (600.0,)
+HP Scaling (240.0,)
+Weapon: equip034_001
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip035_000
+Basic stats
+HP Base (60.0,)
+HP Scaling (0.0,)
+Weapon: equip035_100
+Basic stats
+HP Base (60.0,)
+HP Scaling (18.0,)
+Weapon: equip035_101
+Basic stats
+HP Base (60.0,)
+HP Scaling (18.0,)
+Weapon: equip035_200
+Basic stats
+HP Base (100.0,)
+HP Scaling (50.0,)
+Weapon: equip035_201
+Basic stats
+HP Base (120.0,)
+HP Scaling (60.0,)
+Weapon: equip035_202
+Basic stats
+HP Base (150.0,)
+HP Scaling (75.0,)
+Weapon: equip035_300
+Basic stats
+HP Base (12000.0,)
+HP Scaling (0.0,)
+Weapon: equip036_000
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip036_100
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip036_101
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip036_200
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip036_201
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip036_202
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip036_300
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip024_700
+Basic stats
+HP Base (500.0,)
+HP Scaling (0.0,)
+Weapon: equip024_701
+Basic stats
+HP Base (500.0,)
+HP Scaling (0.0,)
+Weapon: equip024_702
+Basic stats
+HP Base (500.0,)
+HP Scaling (0.0,)
+Weapon: equip024_703
+Basic stats
+HP Base (500.0,)
+HP Scaling (0.0,)
+Weapon: equip024_704
+Basic stats
+HP Base (500.0,)
+HP Scaling (0.0,)
+Weapon: equip024_705
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip024_706
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip024_707
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip024_708
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: equip024_709
+Basic stats
+HP Base (500.0,)
+HP Scaling (0.0,)
+Weapon: equip024_710
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: DUMMY
+Basic stats
+HP Base (100.0,)
+HP Scaling (0.0,)
+Weapon: REGIO_UNIT220_0
+Basic stats
+HP Base (600.0,)
+HP Scaling (300.0,)
+Weapon: REGIO_UNIT221_0
+Basic stats
+HP Base (800.0,)
+HP Scaling (400.0,)
+Weapon: REGIO_UNIT215_0
+Basic stats
+HP Base (300.0,)
+HP Scaling (150.0,)
+Weapon: REGIO_UNIT215_1
+Basic stats
+HP Base (450.0,)
+HP Scaling (225.0,)
+Weapon: REGIO_UNIT215_2
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: REGIO_UNIT216_0
+Basic stats
+HP Base (400.0,)
+HP Scaling (200.0,)
+Weapon: REGIO_UNIT216_1
+Basic stats
+HP Base (600.0,)
+HP Scaling (300.0,)
+Weapon: REGIO_UNIT216_2
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: REGIO_UNIT211_0
+Basic stats
+HP Base (600.0,)
+HP Scaling (300.0,)
+Weapon: REGIO_UNIT211_1
+Basic stats
+HP Base (400.0,)
+HP Scaling (200.0,)
+Weapon: REGIO_UNIT211_2
+Basic stats
+HP Base (400.0,)
+HP Scaling (200.0,)
+Weapon: REGIO_UNIT211_3
+Basic stats
+HP Base (400.0,)
+HP Scaling (200.0,)
+Weapon: REGIO_UNIT211_4
+Basic stats
+HP Base (400.0,)
+HP Scaling (200.0,)
+Weapon: REGIO_UNIT211_5
+Basic stats
+HP Base (400.0,)
+HP Scaling (200.0,)
+Weapon: REGIO_UNIT211_6
+Basic stats
+HP Base (400.0,)
+HP Scaling (200.0,)
+Weapon: REGIO_UNIT212_0
+Basic stats
+HP Base (900.0,)
+HP Scaling (450.0,)
+Weapon: REGIO_UNIT212_1
+Basic stats
+HP Base (600.0,)
+HP Scaling (300.0,)
+Weapon: REGIO_UNIT212_2
+Basic stats
+HP Base (600.0,)
+HP Scaling (300.0,)
+Weapon: REGIO_UNIT212_3
+Basic stats
+HP Base (600.0,)
+HP Scaling (300.0,)
+Weapon: REGIO_UNIT212_4
+Basic stats
+HP Base (600.0,)
+HP Scaling (300.0,)
+Weapon: REGIO_UNIT212_5
+Basic stats
+HP Base (600.0,)
+HP Scaling (300.0,)
+Weapon: REGIO_UNIT212_6
+Basic stats
+HP Base (600.0,)
+HP Scaling (300.0,)
+Weapon: REGIO_UNIT213_0
+Basic stats
+HP Base (200.0,)
+HP Scaling (100.0,)
+Weapon: REGIO_UNIT213_1
+Basic stats
+HP Base (24.0,)
+HP Scaling (12.0,)
+Weapon: REGIO_UNIT213_2
+Basic stats
+HP Base (24.0,)
+HP Scaling (12.0,)
+Weapon: REGIO_UNIT213_3
+Basic stats
+HP Base (24.0,)
+HP Scaling (12.0,)
+Weapon: REGIO_UNIT214_0
+Basic stats
+HP Base (250.0,)
+HP Scaling (125.0,)
+Weapon: REGIO_UNIT214_1
+Basic stats
+HP Base (36.0,)
+HP Scaling (18.0,)
+Weapon: REGIO_UNIT214_2
+Basic stats
+HP Base (36.0,)
+HP Scaling (18.0,)
+Weapon: REGIO_UNIT214_3
+Basic stats
+HP Base (36.0,)
+HP Scaling (18.0,)
+Weapon: REGIO_UNIT222_0
+Basic stats
+HP Base (800.0,)
+HP Scaling (400.0,)
+Weapon: REGIO_UNIT222_1
+Basic stats
+HP Base (400.0,)
+HP Scaling (200.0,)
+Weapon: REGIO_UNIT223_0
+Basic stats
+HP Base (1000.0,)
+HP Scaling (500.0,)
+Weapon: REGIO_UNIT223_1
+Basic stats
+HP Base (500.0,)
+HP Scaling (250.0,)
+Weapon: REGIO_UNIT226_0
+Basic stats
+HP Base (1200.0,)
+HP Scaling (600.0,)
+Weapon: REGIO_UNIT227_0
+Basic stats
+HP Base (1500.0,)
+HP Scaling (750.0,)
+Weapon: REGIO_UNIT228_0
+Basic stats
+HP Base (500.0,)
+HP Scaling (250.0,)
+Weapon: REGIO_UNIT228_1
+Basic stats
+HP Base (500.0,)
+HP Scaling (250.0,)
+Weapon: REGIO_UNIT229_0
+Basic stats
+HP Base (500.0,)
+HP Scaling (250.0,)
+Weapon: REGIO_UNIT229_1
+Basic stats
+HP Base (500.0,)
+HP Scaling (250.0,)
+Weapon: REGIO_UNIT230_0
+Basic stats
+HP Base (240.0,)
+HP Scaling (120.0,)
+Weapon: REGIO_UNIT230_1
+Basic stats
+HP Base (288.0,)
+HP Scaling (144.0,)
+Weapon: REGIO_UNIT230_2
+Basic stats
+HP Base (384.0,)
+HP Scaling (192.0,)
+Weapon: REGIO_UNIT230_3
+Basic stats
+HP Base (528.0,)
+HP Scaling (264.0,)
+Weapon: REGIO_UNIT231_0
+Basic stats
+HP Base (360.0,)
+HP Scaling (180.0,)
+Weapon: REGIO_UNIT231_1
+Basic stats
+HP Base (432.0,)
+HP Scaling (216.0,)
+Weapon: REGIO_UNIT231_2
+Basic stats
+HP Base (576.0,)
+HP Scaling (288.0,)
+Weapon: REGIO_UNIT231_3
+Basic stats
+HP Base (792.0,)
+HP Scaling (396.0,)
+Weapon: REGIO_UNIT226_IC
+Basic stats
+HP Base (10000.0,)
+HP Scaling (5000.0,)
+Weapon: REGIO_UNIT226_IC
+Basic stats
+HP Base (10000.0,)
+HP Scaling (5000.0,)
+Weapon: WALL_000
+Basic stats
+HP Base (100.0,)
+HP Scaling (1.0,)
+Weapon: CAGE_000
+Basic stats
+HP Base (100.0,)
+HP Scaling (1.0,)
+Weapon: PRISONER_000
+Basic stats
+HP Base (100.0,)
+HP Scaling (1.0,)
+Weapon: WAREHOUSE_000
+Basic stats
+HP Base (50.0,)
+HP Scaling (1.0,)
+Weapon: TORCH_000
+Basic stats
+HP Base (100.0,)
+HP Scaling (1.0,)
+Weapon: FORT_000
+Basic stats
+HP Base (350.0,)
+HP Scaling (1.0,)
+Weapon: STONEWALL_000
+Basic stats
+HP Base (100.0,)
+HP Scaling (1.0,)
+Weapon: VOITURE_000
+Basic stats
+HP Base (200.0,)
+HP Scaling (1.0,)
+Weapon: GRASS_000
+Basic stats
+HP Base (30.0,)
+HP Scaling (15.0,)
+Weapon: GRASS_001
+Basic stats
+HP Base (30.0,)
+HP Scaling (15.0,)
+Weapon: UFO
+Basic stats
+HP Base (1.0,)
+HP Scaling (1.0,)
+Weapon: EN_VOITURE_000
+Basic stats
+HP Base (2000.0,)
+HP Scaling (1.0,)
+Weapon: EN_VOITURE_001
+Basic stats
+HP Base (2000.0,)
+HP Scaling (1.0,)
+Weapon: EN_VOITURE_002
+Basic stats
+HP Base (2000.0,)
+HP Scaling (1.0,)
+Weapon: DEKAPON_TOWER_00
+Basic stats
+HP Base (8000.0,)
+HP Scaling (1.0,)
+Weapon: DEKAPON_TOWER_00
+Basic stats
+HP Base (8000.0,)
+HP Scaling (1.0,)
+Weapon: DEKAPON_TOWER_00
+Basic stats
+HP Base (1.0,)
+HP Scaling (1.0,)
+Weapon: DEKAPON_TOWER_00
+Basic stats
+HP Base (9999.0,)
+HP Scaling (1.0,)
+Weapon: DEKAPON_TOWER_00
+Basic stats
+HP Base (1.0,)
+HP Scaling (1.0,)
+Weapon: DEKAPON_TOWER_UP
+Basic stats
+HP Base (5000.0,)
+HP Scaling (1.0,)
+Weapon: TOWER_000
+Basic stats
+HP Base (500.0,)
+HP Scaling (1.0,)
+Weapon: TOWER_001
+Basic stats
+HP Base (500.0,)
+HP Scaling (1.0,)
+Weapon: TOWER_002
+Basic stats
+HP Base (1.0,)
+HP Scaling (1.0,)
+Weapon: CASTLEGATE_000
+Basic stats
+HP Base (3000.0,)
+HP Scaling (1.0,)
+Weapon: CASTLEGATE_001
+Basic stats
+HP Base (1500.0,)
+HP Scaling (1.0,)
+Weapon: CASTLEGATE_002
+Basic stats
+HP Base (1500.0,)
+HP Scaling (1.0,)
+Weapon: CASTLEGATE_003
+Basic stats
+HP Base (800.0,)
+HP Scaling (1.0,)
+Weapon: CASTLEGATE_004
+Basic stats
+HP Base (1500.0,)
+HP Scaling (1.0,)
+Weapon: CASTLEGATE_005
+Basic stats
+HP Base (1000.0,)
+HP Scaling (1.0,)
+Weapon: CASTLEGATE_006
+Basic stats
+HP Base (1500.0,)
+HP Scaling (1.0,)
+Weapon: CASTLEGATE_007
+Basic stats
+HP Base (1500.0,)
+HP Scaling (1.0,)
+Weapon: CASTLEGATE_008
+Basic stats
+HP Base (1500.0,)
+HP Scaling (1.0,)
+Weapon: MAGIC_GATE_000
+Basic stats
+HP Base (3000.0,)
+HP Scaling (1.0,)
+Weapon: MAGIC_GATE_001
+Basic stats
+HP Base (100.0,)
+HP Scaling (1.0,)
+Weapon: MAGIC_GATE_002
+Basic stats
+HP Base (100.0,)
+HP Scaling (1.0,)
+Weapon: MAGIC_GATE_003
+Basic stats
+HP Base (100.0,)
+HP Scaling (1.0,)
+Weapon: MAGIC_GATE_004
+Basic stats
+HP Base (3000.0,)
+HP Scaling (1.0,)
+Weapon: MAGIC_GATE_005
+Basic stats
+HP Base (100.0,)
+HP Scaling (1.0,)
+Weapon: MAGIC_GATE_UP
+Basic stats
+HP Base (15000.0,)
+HP Scaling (1.0,)
+Weapon: EN_TANK
+Basic stats
+HP Base (20000.0,)
+HP Scaling (1.0,)
+Weapon: MEDEN
+Basic stats
+HP Base (200.0,)
+HP Scaling (1.0,)
+Weapon: BAGGAGE
+Basic stats
+HP Base (200.0,)
+HP Scaling (1.0,)
+Weapon: KARMA
+Basic stats
+HP Base (8000.0,)
+HP Scaling (4000.0,)
+Weapon: DUMMY_WALL
+Basic stats
+HP Base (10000.0,)
+HP Scaling (1.0,)
+Weapon: WAREHOUSE_001
+Basic stats
+HP Base (50.0,)
+HP Scaling (1.0,)
+Weapon: WOODTURRET_000
+Basic stats
+HP Base (400.0,)
+HP Scaling (1.0,)
+Weapon: ROCKTURRET_000
+Basic stats
+HP Base (750.0,)
+HP Scaling (1.0,)
+Weapon: IRONTURRET_000
+Basic stats
+HP Base (1000.0,)
+HP Scaling (1.0,)
+Weapon: PILLBOX_000
+Basic stats
+HP Base (2000.0,)
+HP Scaling (1000.0,)
+Weapon: DOOR_BS_000
+Basic stats
+HP Base (1.0,)
+HP Scaling (1.0,)
+Weapon: DOOR_BS_001
+Basic stats
+HP Base (1.0,)
+HP Scaling (1.0,)
+Weapon: CASTLEFLAG_000
+Basic stats
+HP Base (1.0,)
+HP Scaling (1.0,)
+Weapon: CASTLEFLAG_001
+Basic stats
+HP Base (1.0,)
+HP Scaling (1.0,)
+Weapon: ICEWALL_000
+Basic stats
+HP Base (1.0,)
+HP Scaling (0.0,)
+Weapon: ICEWALL_001
+Basic stats
+HP Base (1.0,)
+HP Scaling (0.0,)
+Weapon: ICEWALL_002
+Basic stats
+HP Base (600.0,)
+HP Scaling (300.0,)
+Weapon: ICEWALL_003
+Basic stats
+HP Base (400.0,)
+HP Scaling (200.0,)
+Weapon: ICEWALL_004
+Basic stats
+HP Base (600.0,)
+HP Scaling (300.0,)
+Weapon: SLING_VOITURE_00
+Basic stats
+HP Base (800.0,)
+HP Scaling (1.0,)
+Weapon: IRONFACE_000
+Basic stats
+HP Base (2500.0,)
+HP Scaling (1250.0,)
+Weapon: GODBIG_000
+Basic stats
+HP Base (1.0,)
+HP Scaling (1.0,)
+Weapon: GODSMALL_000
+Basic stats
+HP Base (1.0,)
+HP Scaling (1.0,)
+Weapon: PRINCESS_000
+Basic stats
+HP Base (1.0,)
+HP Scaling (1.0,)
+Weapon: RAINBOWEGG_000
+Basic stats
+HP Base (200.0,)
+HP Scaling (1.0,)
+Weapon: OMENMASK_000
+Basic stats
+HP Base (20000.0,)
+HP Scaling (10000.0,)
+Weapon: OMENMASK_001
+Basic stats
+HP Base (100.0,)
+HP Scaling (1.0,)
+Weapon: OMENMASK_002
+Basic stats
+HP Base (100.0,)
+HP Scaling (1.0,)
+Weapon: OMENMASK_003
+Basic stats
+HP Base (100.0,)
+HP Scaling (1.0,)
+Weapon: ENEMY_TANK2
+Basic stats
+HP Base (15000.0,)
+HP Scaling (1.0,)
+Weapon: MAGICGATE2_000
+Basic stats
+HP Base (5000.0,)
+HP Scaling (1.0,)
+Weapon: MAGICGATE2_001
+Basic stats
+HP Base (3000.0,)
+HP Scaling (1.0,)
+Weapon: MAGICGATE2_002
+Basic stats
+HP Base (3000.0,)
+HP Scaling (1.0,)
+Weapon: MAGICGATE2_003
+Basic stats
+HP Base (3000.0,)
+HP Scaling (1.0,)
+Weapon: MAGICGATE2_004
+Basic stats
+HP Base (5000.0,)
+HP Scaling (1.0,)
+Weapon: MAGICGATE2_005
+Basic stats
+HP Base (5000.0,)
+HP Scaling (1.0,)
+Weapon: MAGICGATE2_006
+Basic stats
+HP Base (3000.0,)
+HP Scaling (1.0,)
+Weapon: MAGICGATE2_007
+Basic stats
+HP Base (3000.0,)
+HP Scaling (1.0,)
+Weapon: MAGICGATE2_008
+Basic stats
+HP Base (3000.0,)
+HP Scaling (1.0,)
+Weapon: MAGICGATE2_009
+Basic stats
+HP Base (3000.0,)
+HP Scaling (1.0,)
+Weapon: MAGICGATE2_010
+Basic stats
+HP Base (3000.0,)
+HP Scaling (1.0,)
+Weapon: CLOUDGENIE_000
+Basic stats
+HP Base (6000.0,)
+HP Scaling (1.0,)
+Weapon: CLOUDGENIE_001
+Basic stats
+HP Base (1.0,)
+HP Scaling (1.0,)
+Weapon: CLOUDGENIE_002
+Basic stats
+HP Base (3000.0,)
+HP Scaling (1.0,)
+Weapon: SHIELDGENERATOR_
+Basic stats
+HP Base (2000.0,)
+HP Scaling (1.0,)
+Weapon: SHIELDGENERATOR_
+Basic stats
+HP Base (2000.0,)
+HP Scaling (1.0,)
+Weapon: SHIELDGENERATOR_
+Basic stats
+HP Base (2000.0,)
+HP Scaling (1.0,)
+Weapon: BLIZZARDTOWER_00
+Basic stats
+HP Base (3000.0,)
+HP Scaling (1500.0,)
+Weapon: MATANGO_000
+Basic stats
+HP Base (8000.0,)
+HP Scaling (4000.0,)
+Weapon: ARMEDWAGON_000
+Basic stats
+HP Base (8000.0,)
+HP Scaling (1.0,)
+Weapon: ARMEDWAGON_001
+Basic stats
+HP Base (8000.0,)
+HP Scaling (1.0,)
+Weapon: ARMEDWAGON_002
+Basic stats
+HP Base (8000.0,)
+HP Scaling (1.0,)
+Weapon: ARMEDWAGON_003
+Basic stats
+HP Base (1000.0,)
+HP Scaling (1.0,)
+Weapon: ROBOTMASKTOWER_0
+Basic stats
+HP Base (10000.0,)
+HP Scaling (1.0,)
+Weapon: ROBOTMASKTOWER_0
+Basic stats
+HP Base (5000.0,)
+HP Scaling (1.0,)
+Weapon: ROBOTMASKTOWER_0
+Basic stats
+HP Base (3000.0,)
+HP Scaling (1.0,)
+Weapon: ROBOTMASKTOWER_0
+Basic stats
+HP Base (3000.0,)
+HP Scaling (1.0,)
+Weapon: ROBOTMASKTOWER_0
+Basic stats
+HP Base (3000.0,)
+HP Scaling (1.0,)
+Weapon: SEALROCK_000
+Basic stats
+HP Base (50000.0,)
+HP Scaling (0.0,)
+Weapon: SEALROCK_001
+Basic stats
+HP Base (1000.0,)
+HP Scaling (1.0,)
+Weapon: HEROPATAPON_000
+Basic stats
+HP Base (1000.0,)
+HP Scaling (1.0,)
+Weapon: SLING_TRANS
+Basic stats
+HP Base (200.0,)
+HP Scaling (1.0,)
+Weapon: GONE_000
+Basic stats
+HP Base (200.0,)
+HP Scaling (1.0,)
+Weapon: BLIZZARDTOWER_00
+Basic stats
+HP Base (2000.0,)
+HP Scaling (1.0,)
+Weapon: GONE_001
+Basic stats
+HP Base (2000.0,)
+HP Scaling (1.0,)
+Weapon: ROCKFACE_000
+Basic stats
+HP Base (60.0,)
+HP Scaling (30.0,)
+Weapon: ROCKFACE_001
+Basic stats
+HP Base (120.0,)
+HP Scaling (60.0,)
+Weapon: STONE_000
+Basic stats
+HP Base (50.0,)
+HP Scaling (25.0,)
+Weapon: STONE_001
+Basic stats
+HP Base (100.0,)
+HP Scaling (50.0,)
+Weapon: SANDBAG
+Basic stats
+HP Base (100.0,)
+HP Scaling (50.0,)
+Weapon: GOAL
+Basic stats
+HP Base (1.0,)
+HP Scaling (0.0,)
+Weapon: DYING_000
+Basic stats
+HP Base (1.0,)
+HP Scaling (0.0,)
+Weapon: FLOWER
+Basic stats
+HP Base (100.0,)
+HP Scaling (50.0,)
+Weapon: HONEYCOMB
+Basic stats
+HP Base (150.0,)
+HP Scaling (15.0,)
+Weapon: RUIN
+Basic stats
+HP Base (1.0,)
+HP Scaling (0.0,)
+Weapon: STELA
+Basic stats
+HP Base (50.0,)
+HP Scaling (5.0,)
+Weapon: POISONFLOWER
+Basic stats
+HP Base (200.0,)
+HP Scaling (20.0,)
+Weapon: SPIDER
+Basic stats
+HP Base (250.0,)
+HP Scaling (25.0,)
+Weapon: SLING
+Basic stats
+HP Base (200.0,)
+HP Scaling (20.0,)
+Weapon: SLING_BROKEN
+Basic stats
+HP Base (200.0,)
+HP Scaling (20.0,)
+Weapon: IVY_FLOWER
+Basic stats
+HP Base (300.0,)
+HP Scaling (30.0,)
+Weapon: HOSHIPON
+Basic stats
+HP Base (1.0,)
+HP Scaling (0.0,)
+Weapon: BILLBOARD
+Basic stats
+HP Base (1.0,)
+HP Scaling (0.0,)
+Weapon: VICTIM_000
+Basic stats
+HP Base (1.0,)
+HP Scaling (0.0,)
+Weapon: ROCKFACE_LOW_000
+Basic stats
+HP Base (200.0,)
+HP Scaling (100.0,)
+Weapon: ROCKFACE_HI_000
+Basic stats
+HP Base (400.0,)
+HP Scaling (200.0,)
+Weapon: GRASS_003
+Basic stats
+HP Base (30.0,)
+HP Scaling (6.0,)
+Weapon: GRASS_004
+Basic stats
+HP Base (30.0,)
+HP Scaling (6.0,)
+Weapon: GRASS_005
+Basic stats
+HP Base (50.0,)
+HP Scaling (10.0,)
+Weapon: GRASS_006
+Basic stats
+HP Base (50.0,)
+HP Scaling (10.0,)
+Weapon: GRASS_007
+Basic stats
+HP Base (40.0,)
+HP Scaling (8.0,)
+Weapon: GRASS_008
+Basic stats
+HP Base (40.0,)
+HP Scaling (8.0,)
+Weapon: BATTERY_000
+Basic stats
+HP Base (800.0,)
+HP Scaling (400.0,)
+Weapon: BLACKHOSHIPON
+Basic stats
+HP Base (1.0,)
+HP Scaling (0.0,)
+Weapon: SNOWBALLBATTERY_
+Basic stats
+HP Base (300.0,)
+HP Scaling (150.0,)
+Weapon: WOODENBOX
+Basic stats
+HP Base (100.0,)
+HP Scaling (50.0,)
+Weapon: HORSE_POST
+Basic stats
+HP Base (200.0,)
+HP Scaling (100.0,)
+Weapon: DUNGEON_GATE_001
+Basic stats
+HP Base (400.0,)
+HP Scaling (200.0,)
+Weapon: DUNGEON_GATE_002
+Basic stats
+HP Base (1.0,)
+HP Scaling (0.0,)
+Weapon: DUNGEON_GATE_003
+Basic stats
+HP Base (1.0,)
+HP Scaling (0.0,)
+Weapon: DUNGEON_GATE_004
+Basic stats
+HP Base (1.0,)
+HP Scaling (0.0,)
+Weapon: RESULT_HEROBASE
+Basic stats
+HP Base (1.0,)
+HP Scaling (0.0,)
+Weapon: BONE_WALL_S
+Basic stats
+HP Base (350.0,)
+HP Scaling (175.0,)
+Weapon: BONE_GRASS_001
+Basic stats
+HP Base (80.0,)
+HP Scaling (16.0,)
+Weapon: BONE_GRASS_002
+Basic stats
+HP Base (80.0,)
+HP Scaling (16.0,)
+Weapon: BONE_GRASS_003
+Basic stats
+HP Base (60.0,)
+HP Scaling (12.0,)
+Weapon: BONE_GRASS_004
+Basic stats
+HP Base (60.0,)
+HP Scaling (12.0,)
+Weapon: EVIL_BOX
+Basic stats
+HP Base (1.0,)
+HP Scaling (0.0,)
+Weapon: EVIL_1
+Basic stats
+HP Base (1.0,)
+HP Scaling (0.0,)
+Weapon: EVIL_2
+Basic stats
+HP Base (1.0,)
+HP Scaling (0.0,)
+Weapon: EVIL_3
+Basic stats
+HP Base (1.0,)
+HP Scaling (0.0,)
+Weapon: EVIL_4
+Basic stats
+HP Base (1.0,)
+HP Scaling (0.0,)
+Weapon: EVIL_5
+Basic stats
+HP Base (1.0,)
+HP Scaling (0.0,)
+Weapon: EVIL_6
+Basic stats
+HP Base (1.0,)
+HP Scaling (0.0,)
+Weapon: EVIL_7
+Basic stats
+HP Base (1.0,)
+HP Scaling (0.0,)
+Weapon: BONE_FORT_L
+Basic stats
+HP Base (2000.0,)
+HP Scaling (1000.0,)
+Weapon: BONE_WALL_L
+Basic stats
+HP Base (700.0,)
+HP Scaling (350.0,)
+Weapon: HATAPON_FLAG
+Basic stats
+HP Base (1.0,)
+HP Scaling (0.0,)
+Weapon: BONE_FORT_M
+Basic stats
+HP Base (1000.0,)
+HP Scaling (500.0,)
+Weapon: WILDLAND_ROCK_L
+Basic stats
+HP Base (300.0,)
+HP Scaling (150.0,)
+Weapon: WILDLAND_ROCK_M
+Basic stats
+HP Base (150.0,)
+HP Scaling (75.0,)
+Weapon: SHERO_MASSIVE_RO
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: SHERO_ICE_CASTLE
+Basic stats
+HP Base (0.0,)
+HP Scaling (0.0,)
+Weapon: SHERO_DOTEPPEKI
+Basic stats
+HP Base (1.0,)
+HP Scaling (0.0,)
+Weapon: MASKGATE_000
+Basic stats
+HP Base (50000.0,)
+HP Scaling (25000.0,)
+Weapon: MASKGATE_001
+Basic stats
+HP Base (10000.0,)
+HP Scaling (5000.0,)
+Weapon: MASKGATE_002
+Basic stats
+HP Base (10000.0,)
+HP Scaling (5000.0,)
+Weapon: MASKGATE_003
+Basic stats
+HP Base (10000.0,)
+HP Scaling (5000.0,)
+Weapon: MASKGATE_004
+Basic stats
+HP Base (10000.0,)
+HP Scaling (5000.0,)
+Weapon: MASKGATE_005
+Basic stats
+HP Base (10000.0,)
+HP Scaling (5000.0,)
+Weapon: MASKGATE_006
+Basic stats
+HP Base (10000.0,)
+HP Scaling (5000.0,)
+Weapon: MASKGATE_007
+Basic stats
+HP Base (10000.0,)
+HP Scaling (5000.0,)
+Weapon: MASKGATE_008
+Basic stats
+HP Base (10000.0,)
+HP Scaling (5000.0,)
+Weapon: P_FLAG_BULE
+Basic stats
+HP Base (1.0,)
+HP Scaling (1.0,)
+Weapon: P_FLAG_RED
+Basic stats
+HP Base (1.0,)
+HP Scaling (1.0,)
+Weapon: P_HEDGE_BULE
+Basic stats
+HP Base (1.0,)
+HP Scaling (1.0,)
+Weapon: P_HEDGE_RED
+Basic stats
+HP Base (1.0,)
+HP Scaling (1.0,)
+Weapon: P_CANNON_BULE
+Basic stats
+HP Base (800.0,)
+HP Scaling (400.0,)
+Weapon: P_CANNON_RED
+Basic stats
+HP Base (800.0,)
+HP Scaling (400.0,)
+Weapon: P_ALTAR_BULE
+Basic stats
+HP Base (1.0,)
+HP Scaling (1.0,)
+Weapon: P_ALTAR_RED
+Basic stats
+HP Base (1.0,)
+HP Scaling (1.0,)
+Weapon: P_GATE01_BULE
+Basic stats
+HP Base (1.0,)
+HP Scaling (1.0,)
+Weapon: P_GATE01_RED
+Basic stats
+HP Base (1.0,)
+HP Scaling (1.0,)
+Weapon: P_GATE02_BULE
+Basic stats
+HP Base (1.0,)
+HP Scaling (1.0,)
+Weapon: P_GATE02_RED
+Basic stats
+HP Base (1.0,)
+HP Scaling (1.0,)
+Weapon: P_AREASYMBOL
+Basic stats
+HP Base (1.0,)
+HP Scaling (1.0,)
+Weapon: P_ROCKFACE_LOW_0
+Basic stats
+HP Base (1000.0,)
+HP Scaling (500.0,)
+Weapon: P_ROCKFACE_HI_00
+Basic stats
+HP Base (1500.0,)
+HP Scaling (750.0,)
+Weapon: HONE_VOITURE
+Basic stats
+HP Base (1000.0,)
+HP Scaling (1.0,)
+Weapon: WAREHOUSE_002
+Basic stats
+HP Base (600.0,)
+HP Scaling (300.0,)
+Weapon: WAREHOUSE_003
+Basic stats
+HP Base (400.0,)
+HP Scaling (200.0,)
+Weapon: ROW4_GUILLOTINE
+Basic stats
+HP Base (1.0,)
+HP Scaling (0.0,)
+Weapon: OGU
+Basic stats
+HP Base (10000.0,)
+HP Scaling (5000.0,)
+Weapon: DARU
+Basic stats
+HP Base (20000.0,)
+HP Scaling (10000.0,)
+Weapon: ZGG
+Basic stats
+HP Base (5000.0,)
+HP Scaling (2500.0,)
+Weapon: P_MASKGATE_000
+Basic stats
+HP Base (100.0,)
+HP Scaling (1.0,)
+Weapon: P_MASKGATE_001
+Basic stats
+HP Base (100.0,)
+HP Scaling (1.0,)
+Weapon: P_MASKGATE_002
+Basic stats
+HP Base (100.0,)
+HP Scaling (1.0,)
+Weapon: P_MASKGATE_003
+Basic stats
+HP Base (100.0,)
+HP Scaling (1.0,)
+Weapon: P_MASKGATE_004
+Basic stats
+HP Base (100.0,)
+HP Scaling (1.0,)
+Weapon: P_MASKGATE_005
+Basic stats
+HP Base (100.0,)
+HP Scaling (1.0,)
+Weapon: P_MASKGATE_006
+Basic stats
+HP Base (100.0,)
+HP Scaling (1.0,)
+Weapon: P_MASKGATE_007
+Basic stats
+HP Base (100.0,)
+HP Scaling (1.0,)
+Weapon: P_MASKGATE_008
+Basic stats
+HP Base (100.0,)
+HP Scaling (1.0,)
+Weapon: P_SAW_BULE
+Basic stats
+HP Base (1500.0,)
+HP Scaling (750.0,)
+Weapon: P_SAW_RED
+Basic stats
+HP Base (1500.0,)
+HP Scaling (750.0,)
+Weapon: P_FLAMEGUN_BULE
+Basic stats
+HP Base (1000.0,)
+HP Scaling (500.0,)
+Weapon: P_FLAMEGUN_RED
+Basic stats
+HP Base (1000.0,)
+HP Scaling (500.0,)
+Weapon: P_SUMMONDMY
+Basic stats
+HP Base (100000.0,)
+HP Scaling (1.0,)
+Weapon: VERSUS2_FORT
+Basic stats
+HP Base (500.0,)
+HP Scaling (50.0,)
+Weapon: VERSUS2_MISSILE
+Basic stats
+HP Base (80.0,)
+HP Scaling (40.0,)
+Weapon: VERSUS2_MISSILE_
+Basic stats
+HP Base (50.0,)
+HP Scaling (25.0,)
+Weapon: VERSUS2_MISSILE_
+Basic stats
+HP Base (200.0,)
+HP Scaling (100.0,)
+Weapon: VS2_IRONFACE
+Basic stats
+HP Base (2000.0,)
+HP Scaling (1000.0,)
+Weapon: AIRDEFENSE
+Basic stats
+HP Base (50.0,)
+HP Scaling (10.0,)
+Weapon: G_TREASURE_00
+Basic stats
+HP Base (2000.0,)
+HP Scaling (400.0,)
+Weapon: G_TREASURE_01
+Basic stats
+HP Base (2000.0,)
+HP Scaling (300.0,)
+Weapon: G_TREASURE_02
+Basic stats
+HP Base (2000.0,)
+HP Scaling (200.0,)
+Weapon: G_TREASURE_03
+Basic stats
+HP Base (2000.0,)
+HP Scaling (100.0,)
+Weapon: MAGIC_ICEWALL_FR
+Basic stats
+HP Base (20.0,)
+HP Scaling (10.0,)
+Weapon: MAGIC_ICEWALL_SL
+Basic stats
+HP Base (20.0,)
+HP Scaling (10.0,)
+Weapon: MAGIC_ICEWALL_PO
+Basic stats
+HP Base (20.0,)
+HP Scaling (10.0,)
+Weapon: GROCK_STAND
+Basic stats
+HP Base (200.0,)
+HP Scaling (100.0,)
+Weapon: HERO_SPPN_ICECAS
+Basic stats
+HP Base (80.0,)
+HP Scaling (40.0,)
+Weapon: VERSUS4_CASTLE
+Basic stats
+HP Base (1500.0,)
+HP Scaling (300.0,)
+Weapon: VERSUS4_GATE
+Basic stats
+HP Base (15000.0,)
+HP Scaling (3000.0,)
+Weapon: VERSUS4_LASER
+Basic stats
+HP Base (3000.0,)
+HP Scaling (600.0,)
+Weapon: LSBS_EYE
+Basic stats
+HP Base (1.0,)
+HP Scaling (0.0,)
+Weapon: LSBS_THUNDER1
+Basic stats
+HP Base (1.0,)
+HP Scaling (0.0,)
+Weapon: LSBS_THUNDER2
+Basic stats
+HP Base (1.0,)
+HP Scaling (0.0,)
+Weapon: LSBS1_THUNDER1
+Basic stats
+HP Base (1.0,)
+HP Scaling (0.0,)
+Weapon: LSBS1_THUNDER2
+Basic stats
+HP Base (1.0,)
+HP Scaling (0.0,)
+Weapon: LSBS2_THUNDER1
+Basic stats
+HP Base (1.0,)
+HP Scaling (0.0,)
+Weapon: LSBS2_THUNDER2
+Basic stats
+HP Base (1.0,)
+HP Scaling (0.0,)
+Weapon: LSBS_DEVIL_DAMAG
+Basic stats
+HP Base (100.0,)
+HP Scaling (0.0,)
+Weapon: LSBS1_DEVIL_DAMA
+Basic stats
+HP Base (100.0,)
+HP Scaling (0.0,)
+Weapon: LSBS2_DEVIL_DAMA
+Basic stats
+HP Base (100.0,)
+HP Scaling (0.0,)
+Weapon: VERSUS2_SWITCH
+Basic stats
+HP Base (100.0,)
+HP Scaling (50.0,)
+Weapon: BEACON
+Basic stats
+HP Base (100.0,)
+HP Scaling (1.0,)
+Weapon: SMN_SYMBOL1
+Basic stats
+HP Base (1.0,)
+HP Scaling (0.0,)
+Weapon: SMN_SYMBOL2
+Basic stats
+HP Base (3000.0,)
+HP Scaling (1.0,)
+Weapon: SMN_SYMBOL3
+Basic stats
+HP Base (3000.0,)
+HP Scaling (1.0,)
+Weapon: SMN_SYMBOL4
+Basic stats
+HP Base (3000.0,)
+HP Scaling (1.0,)
+Weapon: SMN_SYMBOL5
+Basic stats
+HP Base (3000.0,)
+HP Scaling (1.0,)
+Weapon: SMN_SYMBOL6
+Basic stats
+HP Base (3000.0,)
+HP Scaling (1.0,)
+Weapon: SMN_SYMBOL7
+Basic stats
+HP Base (3000.0,)
+HP Scaling (1.0,)
+Weapon: SMN_SYMBOL8
+Basic stats
+HP Base (3000.0,)
+HP Scaling (1.0,)
+Weapon: SMN_SYMBOL9
+Basic stats
+HP Base (3000.0,)
+HP Scaling (1.0,)
+Weapon: SHERO_DMUSHROOM
+Basic stats
+HP Base (200.0,)
+HP Scaling (1.0,)
+Weapon: AUTO_RAM
+Basic stats
+HP Base (50.0,)
+HP Scaling (10.0,)
+Weapon: PENDULUM_SICKLE
+Basic stats
+HP Base (1.0,)
+HP Scaling (0.0,)
+Weapon: FIREWALL
+Basic stats
+HP Base (1.0,)
+HP Scaling (0.0,)
+Weapon: ATTACKSCREEN
+Basic stats
+HP Base (1.0,)
+HP Scaling (0.0,)
+Weapon: FIRE_IGNITE_GIMM
+Basic stats
+HP Base (1.0,)
+HP Scaling (0.0,)
+Weapon: FIRE_GIMMICK
+Basic stats
+HP Base (1.0,)
+HP Scaling (0.0,)
+Weapon: FIRE_UNIT
+Basic stats
+HP Base (1.0,)
+HP Scaling (0.0,)
+Weapon: FIRE_BOSS
+Basic stats
+HP Base (1.0,)
+HP Scaling (0.0,)
+Weapon: SFIRE_IGNITE_GIM
+Basic stats
+HP Base (1.0,)
+HP Scaling (0.0,)
+Weapon: SFIRE_GIMMICK
+Basic stats
+HP Base (1.0,)
+HP Scaling (0.0,)
+Weapon: SFIRE_UNIT
+Basic stats
+HP Base (1.0,)
+HP Scaling (0.0,)
+Weapon: SFIRE_BOSS
+Basic stats
+HP Base (1.0,)
+HP Scaling (0.0,)
+Weapon: POISON_UNIT
+Basic stats
+HP Base (1.0,)
+HP Scaling (0.0,)
+Weapon: POISON_BOSS
+Basic stats
+HP Base (1.0,)
+HP Scaling (0.0,)
+Weapon: SMN_SYMBOL4_HOTP
+Basic stats
+HP Base (3000.0,)
+HP Scaling (1.0,)
+Weapon: SMN_SYMBOL9_HOTP
+Basic stats
+HP Base (3000.0,)
+HP Scaling (1.0,)
+
+Process finished with exit code 0

@@ -1,0 +1,98 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'editor.ui'
+#
+# Created by: PyQt5 UI code generator 5.13.0
+#
+# WARNING! All changes made in this file will be lost!
+
+
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+
+class Ui_MainWindow(object):
+    def setupUi(self, MainWindow):
+        MainWindow.setObjectName("MainWindow")
+        MainWindow.resize(1276, 600)
+        self.centralwidget = QtWidgets.QWidget(MainWindow)
+        self.centralwidget.setObjectName("centralwidget")
+        self.itemDetails = QtWidgets.QTabWidget(self.centralwidget)
+        self.itemDetails.setGeometry(QtCore.QRect(10, 10, 1041, 511))
+        self.itemDetails.setObjectName("itemDetails")
+        self.tab_basic_stats = QtWidgets.QWidget()
+        self.tab_basic_stats.setObjectName("tab_basic_stats")
+        self.HPBase_label = QtWidgets.QLabel(self.tab_basic_stats)
+        self.HPBase_label.setGeometry(QtCore.QRect(10, 10, 111, 16))
+        self.HPBase_label.setObjectName("HPBase_label")
+        self.HPScaling_label = QtWidgets.QLabel(self.tab_basic_stats)
+        self.HPScaling_label.setGeometry(QtCore.QRect(10, 40, 111, 16))
+        self.HPScaling_label.setObjectName("HPScaling_label")
+        self.HPBase = QtWidgets.QLineEdit(self.tab_basic_stats)
+        self.HPBase.setGeometry(QtCore.QRect(100, 10, 113, 20))
+        self.HPBase.setReadOnly(True)
+        self.HPBase.setObjectName("HPBase")
+        self.HPScaling = QtWidgets.QLineEdit(self.tab_basic_stats)
+        self.HPScaling.setGeometry(QtCore.QRect(100, 40, 113, 20))
+        self.HPScaling.setReadOnly(True)
+        self.HPScaling.setObjectName("HPScaling")
+        self.itemDetails.addTab(self.tab_basic_stats, "")
+        self.tab_status_effect = QtWidgets.QWidget()
+        self.tab_status_effect.setObjectName("tab_status_effect")
+        self.itemDetails.addTab(self.tab_status_effect, "")
+        self.tab_damage_multipliers = QtWidgets.QWidget()
+        self.tab_damage_multipliers.setObjectName("tab_damage_multipliers")
+        self.itemDetails.addTab(self.tab_damage_multipliers, "")
+        self.tab_resistance_multipliers = QtWidgets.QWidget()
+        self.tab_resistance_multipliers.setObjectName("tab_resistance_multipliers")
+        self.itemDetails.addTab(self.tab_resistance_multipliers, "")
+        self.tab_switches = QtWidgets.QWidget()
+        self.tab_switches.setObjectName("tab_switches")
+        self.itemDetails.addTab(self.tab_switches, "")
+        self.listItems = QtWidgets.QListView(self.centralwidget)
+        self.listItems.setGeometry(QtCore.QRect(1070, 30, 191, 481))
+        self.listItems.setObjectName("listItems")
+        self.fileName = QtWidgets.QLabel(self.centralwidget)
+        self.fileName.setGeometry(QtCore.QRect(10, 540, 331, 16))
+        self.fileName.setText("")
+        self.fileName.setObjectName("fileName")
+        self.widget = QtWidgets.QWidget(self.centralwidget)
+        self.widget.setGeometry(QtCore.QRect(360, 530, 591, 25))
+        self.widget.setObjectName("widget")
+        self.horizontalLayout = QtWidgets.QHBoxLayout(self.widget)
+        self.horizontalLayout.setContentsMargins(0, 0, 0, 0)
+        self.horizontalLayout.setObjectName("horizontalLayout")
+        self.openFileButton = QtWidgets.QPushButton(self.widget)
+        self.openFileButton.setObjectName("openFileButton")
+        self.horizontalLayout.addWidget(self.openFileButton)
+        self.saveFileButton = QtWidgets.QPushButton(self.widget)
+        self.saveFileButton.setObjectName("saveFileButton")
+        self.horizontalLayout.addWidget(self.saveFileButton)
+        self.exitButton = QtWidgets.QPushButton(self.widget)
+        self.exitButton.setObjectName("exitButton")
+        self.horizontalLayout.addWidget(self.exitButton)
+        MainWindow.setCentralWidget(self.centralwidget)
+        self.menubar = QtWidgets.QMenuBar(MainWindow)
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 1276, 21))
+        self.menubar.setObjectName("menubar")
+        MainWindow.setMenuBar(self.menubar)
+        self.statusbar = QtWidgets.QStatusBar(MainWindow)
+        self.statusbar.setObjectName("statusbar")
+        MainWindow.setStatusBar(self.statusbar)
+
+        self.retranslateUi(MainWindow)
+        self.itemDetails.setCurrentIndex(0)
+        QtCore.QMetaObject.connectSlotsByName(MainWindow)
+
+    def retranslateUi(self, MainWindow):
+        _translate = QtCore.QCoreApplication.translate
+        MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
+        self.HPBase_label.setText(_translate("MainWindow", "HP Base"))
+        self.HPScaling_label.setText(_translate("MainWindow", "HP Scaling"))
+        self.itemDetails.setTabText(self.itemDetails.indexOf(self.tab_basic_stats), _translate("MainWindow", "Basic Stats"))
+        self.itemDetails.setTabText(self.itemDetails.indexOf(self.tab_status_effect), _translate("MainWindow", "Status Effects"))
+        self.itemDetails.setTabText(self.itemDetails.indexOf(self.tab_damage_multipliers), _translate("MainWindow", "Damage Multipliers"))
+        self.itemDetails.setTabText(self.itemDetails.indexOf(self.tab_resistance_multipliers), _translate("MainWindow", "Resistance Multipliers"))
+        self.itemDetails.setTabText(self.itemDetails.indexOf(self.tab_switches), _translate("MainWindow", "ПЕРЕКЛЮЧАТЕЛИ"))
+        self.openFileButton.setText(_translate("MainWindow", " Открыть файл"))
+        self.saveFileButton.setText(_translate("MainWindow", "Сохранить файл"))
+        self.exitButton.setText(_translate("MainWindow", "Выход"))

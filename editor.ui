@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1276</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="itemDetails">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>1041</width>
+      <height>511</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="tab_basic_stats">
+     <attribute name="title">
+      <string>Basic Stats</string>
+     </attribute>
+     <widget class="QLabel" name="HPBase_label">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>111</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>HP Base</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="HPScaling_label">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>40</y>
+        <width>111</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>HP Scaling</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="HPBase">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>10</y>
+        <width>113</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="HPScaling">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>40</y>
+        <width>113</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_status_effect">
+     <attribute name="title">
+      <string>Status Effects</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="tab_damage_multipliers">
+     <attribute name="title">
+      <string>Damage Multipliers</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="tab_resistance_multipliers">
+     <attribute name="title">
+      <string>Resistance Multipliers</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="tab_switches">
+     <attribute name="title">
+      <string>ПЕРЕКЛЮЧАТЕЛИ</string>
+     </attribute>
+    </widget>
+   </widget>
+   <widget class="QListView" name="listItems">
+    <property name="geometry">
+     <rect>
+      <x>1070</x>
+      <y>30</y>
+      <width>191</width>
+      <height>481</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="fileName">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>540</y>
+      <width>331</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>530</y>
+      <width>591</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QPushButton" name="openFileButton">
+       <property name="text">
+        <string> Открыть файл</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="saveFileButton">
+       <property name="text">
+        <string>Сохранить файл</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="exitButton">
+       <property name="text">
+        <string>Выход</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1276</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
