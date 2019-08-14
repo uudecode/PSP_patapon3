@@ -3,7 +3,7 @@ from struct import unpack_from
 
 from PyQt5 import QtWidgets, QtCore
 from PyQt5.QtGui import QStandardItemModel, QStandardItem, QIntValidator, QDoubleValidator
-from constants import INITIAL_GAP, BLOCK_SIZE, BASIC_STATS
+from constants import INITIAL_GAP, BLOCK_SIZE, BASIC_STATS, FLOAT_FORMAT, INT_FORMAT
 
 import editor
 
@@ -21,8 +21,7 @@ class EditorApp(QtWidgets.QMainWindow, editor.Ui_MainWindow):
         self.item_model = QStandardItemModel(self.listItems)
         self._only_int = QIntValidator()
         self._only_float = QDoubleValidator()
-        self.HPBase.setValidator(self._only_float)
-        self.HPScaling.setValidator(self._only_float)
+        self.set_validators()
 
     def open_file(self):
         self._logger.debug('Opening file')
@@ -73,16 +72,29 @@ class EditorApp(QtWidgets.QMainWindow, editor.Ui_MainWindow):
                 value = unpack_from(element[2], block, element[0])[0]
                 self._logger.debug('Value: %s', value)
                 line_edit = self.findChild(QtWidgets.QLineEdit, element[1])
-                line_edit.setText(str(value))
+                line_edit.setText(str(value).replace('.', ','))
 
         except Exception:
             self._logger.exception('При загрузке данных элемента произошла ошибка')
             self.set_values_readonly()
 
+    def set_validators(self):
+        self._logger.debug('SetValidators')
+        for element in BASIC_STATS:
+            self._logger.debug('x00: %s', element)
+            line_edit = self.findChild(QtWidgets.QLineEdit, element[1])
+            if element[2] == FLOAT_FORMAT:
+                self._logger.debug('x01: %s', element)
+                line_edit.setValidator(self._only_float)
+            elif element[2] == INT_FORMAT:
+                line_edit.setValidator(self._only_int)
+
     def set_values_readonly(self):
-        self.HPBase.setReadOnly(True)
-        self.HPScaling.setReadOnly(True)
+        for element in BASIC_STATS:
+            line_edit = self.findChild(QtWidgets.QLineEdit, element[1])
+            line_edit.setReadOnly(True)
 
     def set_values_editable(self):
-        self.HPBase.setReadOnly(False)
-        self.HPScaling.setReadOnly(False)
+        for element in BASIC_STATS:
+            line_edit = self.findChild(QtWidgets.QLineEdit, element[1])
+            line_edit.setReadOnly(False)
