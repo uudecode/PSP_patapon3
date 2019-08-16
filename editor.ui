@@ -46,6 +46,9 @@
       <height>20</height>
      </rect>
     </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
    </widget>
    <widget class="QLabel" name="MinDMGScaling_label">
     <property name="geometry">
@@ -68,6 +71,9 @@
       <width>110</width>
       <height>20</height>
      </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QLabel" name="HPScaling_label">
@@ -157,6 +163,9 @@
       <height>21</height>
      </rect>
     </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
    </widget>
    <widget class="QLineEdit" name="MaxDMG">
     <property name="geometry">
@@ -167,6 +176,9 @@
       <height>20</height>
      </rect>
     </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
    </widget>
    <widget class="QLineEdit" name="SprintSpeed">
     <property name="geometry">
@@ -176,6 +188,9 @@
       <width>110</width>
       <height>20</height>
      </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QLineEdit" name="HPBase">
@@ -212,6 +227,9 @@
       <width>110</width>
       <height>20</height>
      </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QGroupBox" name="groupBox">
@@ -251,6 +269,9 @@
      <property name="text">
       <string/>
      </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
     </widget>
     <widget class="QLineEdit" name="ShieldBreak">
      <property name="geometry">
@@ -260,6 +281,9 @@
        <width>111</width>
        <height>20</height>
       </rect>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
      </property>
     </widget>
     <widget class="QLabel" name="ShieldBreak_label">
@@ -310,6 +334,9 @@
        <height>20</height>
       </rect>
      </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
     </widget>
     <widget class="QLineEdit" name="Power">
      <property name="geometry">
@@ -319,6 +346,9 @@
        <width>111</width>
        <height>20</height>
       </rect>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
      </property>
     </widget>
     <widget class="QLineEdit" name="Defense">
@@ -330,6 +360,9 @@
        <height>20</height>
       </rect>
      </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
     </widget>
     <widget class="QLineEdit" name="DefenseScaling">
      <property name="geometry">
@@ -339,6 +372,9 @@
        <width>111</width>
        <height>20</height>
       </rect>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
      </property>
     </widget>
     <widget class="QLineEdit" name="Evasion">
@@ -350,6 +386,9 @@
        <height>20</height>
       </rect>
      </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
     </widget>
     <widget class="QLineEdit" name="EvasionScaling">
      <property name="geometry">
@@ -359,6 +398,9 @@
        <width>111</width>
        <height>20</height>
       </rect>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
      </property>
     </widget>
     <widget class="QLineEdit" name="Weight">
@@ -370,6 +412,9 @@
        <height>20</height>
       </rect>
      </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
     </widget>
     <widget class="QLineEdit" name="WeightScaling">
      <property name="geometry">
@@ -379,6 +424,9 @@
        <width>111</width>
        <height>20</height>
       </rect>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
      </property>
     </widget>
     <widget class="QLabel" name="Defense_label">
