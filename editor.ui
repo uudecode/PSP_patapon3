@@ -6,237 +6,19 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1158</width>
-    <height>741</height>
+    <width>1155</width>
+    <height>740</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Potapon Resource File Editor</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QListView" name="listItems">
-    <property name="geometry">
-     <rect>
-      <x>938</x>
-      <y>20</y>
-      <width>191</width>
-      <height>481</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QLabel" name="HPBase_label">
-    <property name="geometry">
-     <rect>
-      <x>30</x>
-      <y>40</y>
-      <width>111</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>HP Base</string>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="MinDMGScaling">
-    <property name="geometry">
-     <rect>
-      <x>129</x>
-      <y>190</y>
-      <width>110</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="readOnly">
-     <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QLabel" name="MinDMGScaling_label">
-    <property name="geometry">
-     <rect>
-      <x>30</x>
-      <y>190</y>
-      <width>77</width>
-      <height>13</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Min DMG Scaling</string>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="FeverSpeed">
-    <property name="geometry">
-     <rect>
-      <x>129</x>
-      <y>100</y>
-      <width>110</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="readOnly">
-     <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QLabel" name="HPScaling_label">
-    <property name="geometry">
-     <rect>
-      <x>30</x>
-      <y>70</y>
-      <width>111</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>HP Scaling</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="MinDMG_label">
-    <property name="geometry">
-     <rect>
-      <x>30</x>
-      <y>160</y>
-      <width>71</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Min DMG</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="SprintSpeed_label">
-    <property name="geometry">
-     <rect>
-      <x>30</x>
-      <y>130</y>
-      <width>81</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Sprint Speed</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="labelFeverSpeed_label">
-    <property name="geometry">
-     <rect>
-      <x>30</x>
-      <y>100</y>
-      <width>81</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Fever Speed</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="MaxDMG_label">
-    <property name="geometry">
-     <rect>
-      <x>30</x>
-      <y>220</y>
-      <width>61</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>MaxDMG</string>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="HPScaling">
-    <property name="geometry">
-     <rect>
-      <x>129</x>
-      <y>70</y>
-      <width>110</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="readOnly">
-     <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="MinDMG">
-    <property name="geometry">
-     <rect>
-      <x>129</x>
-      <y>160</y>
-      <width>110</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="readOnly">
-     <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="MaxDMG">
-    <property name="geometry">
-     <rect>
-      <x>130</x>
-      <y>220</y>
-      <width>110</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="readOnly">
-     <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="SprintSpeed">
-    <property name="geometry">
-     <rect>
-      <x>129</x>
-      <y>130</y>
-      <width>110</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="readOnly">
-     <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="HPBase">
-    <property name="geometry">
-     <rect>
-      <x>129</x>
-      <y>40</y>
-      <width>110</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="readOnly">
-     <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QLabel" name="MaxDMGScaling_label">
-    <property name="geometry">
-     <rect>
-      <x>30</x>
-      <y>250</y>
-      <width>101</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Max DMG Scaling</string>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="MaxDMGScaling">
-    <property name="geometry">
-     <rect>
-      <x>130</x>
-      <y>250</y>
-      <width>110</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="readOnly">
-     <bool>true</bool>
-    </property>
-   </widget>
    <widget class="QGroupBox" name="groupBox">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>10</y>
+      <x>10</x>
+      <y>60</y>
       <width>271</width>
       <height>601</height>
      </rect>
@@ -248,7 +30,7 @@
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>300</y>
+       <y>320</y>
        <width>91</width>
        <height>21</height>
       </rect>
@@ -261,7 +43,7 @@
      <property name="geometry">
       <rect>
        <x>110</x>
-       <y>300</y>
+       <y>320</y>
        <width>111</width>
        <height>20</height>
       </rect>
@@ -277,7 +59,7 @@
      <property name="geometry">
       <rect>
        <x>110</x>
-       <y>330</y>
+       <y>350</y>
        <width>111</width>
        <height>20</height>
       </rect>
@@ -290,7 +72,7 @@
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>330</y>
+       <y>350</y>
        <width>91</width>
        <height>21</height>
       </rect>
@@ -303,7 +85,7 @@
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>360</y>
+       <y>380</y>
        <width>101</width>
        <height>21</height>
       </rect>
@@ -316,7 +98,7 @@
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>270</y>
+       <y>290</y>
        <width>91</width>
        <height>20</height>
       </rect>
@@ -329,7 +111,7 @@
      <property name="geometry">
       <rect>
        <x>110</x>
-       <y>360</y>
+       <y>380</y>
        <width>111</width>
        <height>20</height>
       </rect>
@@ -342,7 +124,7 @@
      <property name="geometry">
       <rect>
        <x>110</x>
-       <y>270</y>
+       <y>290</y>
        <width>111</width>
        <height>20</height>
       </rect>
@@ -355,7 +137,7 @@
      <property name="geometry">
       <rect>
        <x>110</x>
-       <y>390</y>
+       <y>410</y>
        <width>111</width>
        <height>20</height>
       </rect>
@@ -368,7 +150,7 @@
      <property name="geometry">
       <rect>
        <x>110</x>
-       <y>420</y>
+       <y>440</y>
        <width>111</width>
        <height>20</height>
       </rect>
@@ -381,7 +163,7 @@
      <property name="geometry">
       <rect>
        <x>110</x>
-       <y>450</y>
+       <y>470</y>
        <width>111</width>
        <height>20</height>
       </rect>
@@ -394,7 +176,7 @@
      <property name="geometry">
       <rect>
        <x>110</x>
-       <y>480</y>
+       <y>500</y>
        <width>111</width>
        <height>20</height>
       </rect>
@@ -407,7 +189,7 @@
      <property name="geometry">
       <rect>
        <x>110</x>
-       <y>510</y>
+       <y>530</y>
        <width>111</width>
        <height>20</height>
       </rect>
@@ -420,7 +202,7 @@
      <property name="geometry">
       <rect>
        <x>110</x>
-       <y>540</y>
+       <y>560</y>
        <width>111</width>
        <height>20</height>
       </rect>
@@ -433,7 +215,7 @@
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>390</y>
+       <y>410</y>
        <width>101</width>
        <height>21</height>
       </rect>
@@ -446,7 +228,7 @@
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>420</y>
+       <y>440</y>
        <width>101</width>
        <height>21</height>
       </rect>
@@ -459,7 +241,7 @@
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>450</y>
+       <y>470</y>
        <width>101</width>
        <height>21</height>
       </rect>
@@ -472,7 +254,7 @@
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>480</y>
+       <y>500</y>
        <width>101</width>
        <height>21</height>
       </rect>
@@ -485,7 +267,7 @@
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>510</y>
+       <y>530</y>
        <width>101</width>
        <height>21</height>
       </rect>
@@ -498,7 +280,7 @@
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>540</y>
+       <y>560</y>
        <width>101</width>
        <height>21</height>
       </rect>
@@ -507,13 +289,244 @@
       <string>Weight Scaling</string>
      </property>
     </widget>
+    <widget class="QLineEdit" name="MaxDMGScaling">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>260</y>
+       <width>110</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="MaxDMGScaling_label">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>260</y>
+       <width>101</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Max DMG Scaling</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="MinDMGScaling_label">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>200</y>
+       <width>77</width>
+       <height>13</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Min DMG Scaling</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="MaxDMG_label">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>230</y>
+       <width>61</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>MaxDMG</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="MaxDMG">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>230</y>
+       <width>110</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="MinDMG">
+     <property name="geometry">
+      <rect>
+       <x>109</x>
+       <y>170</y>
+       <width>110</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="MinDMGScaling">
+     <property name="geometry">
+      <rect>
+       <x>109</x>
+       <y>200</y>
+       <width>110</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="MinDMG_label">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>170</y>
+       <width>71</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Min DMG</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="AttackSpeed">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>110</y>
+       <width>110</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="FeverSpeed">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>80</y>
+       <width>110</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="HPBase">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>20</y>
+       <width>110</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="HPScaling">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>50</y>
+       <width>110</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="HPBase_label">
+     <property name="geometry">
+      <rect>
+       <x>11</x>
+       <y>20</y>
+       <width>111</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>HP Base</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelFeverSpeed_label">
+     <property name="geometry">
+      <rect>
+       <x>11</x>
+       <y>80</y>
+       <width>81</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Fever Speed</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="HPScaling_label">
+     <property name="geometry">
+      <rect>
+       <x>11</x>
+       <y>50</y>
+       <width>111</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>HP Scaling</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="SprintSpeed_label">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>140</y>
+       <width>81</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Sprint Speed</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="SprintSpeed">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>140</y>
+       <width>110</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="AttackSpeed_label">
+     <property name="geometry">
+      <rect>
+       <x>11</x>
+       <y>110</y>
+       <width>70</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Attack Speed</string>
+     </property>
+    </widget>
    </widget>
    <widget class="QComboBox" name="comboBox">
     <property name="geometry">
      <rect>
-      <x>620</x>
-      <y>660</y>
-      <width>231</width>
+      <x>980</x>
+      <y>20</y>
+      <width>159</width>
       <height>22</height>
      </rect>
     </property>
@@ -540,9 +553,9 @@
    <widget class="QPushButton" name="saveFileButton_2">
     <property name="geometry">
      <rect>
-      <x>218</x>
-      <y>660</y>
-      <width>193</width>
+      <x>200</x>
+      <y>30</y>
+      <width>121</width>
       <height>23</height>
      </rect>
     </property>
@@ -553,9 +566,9 @@
    <widget class="QPushButton" name="exitButton">
     <property name="geometry">
      <rect>
-      <x>417</x>
-      <y>660</y>
-      <width>192</width>
+      <x>1030</x>
+      <y>670</y>
+      <width>120</width>
       <height>23</height>
      </rect>
     </property>
@@ -566,9 +579,9 @@
    <widget class="QPushButton" name="openFileButton">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>660</y>
-      <width>192</width>
+      <x>80</x>
+      <y>30</y>
+      <width>120</width>
       <height>23</height>
      </rect>
     </property>
@@ -605,8 +618,8 @@
    <widget class="QLabel" name="fileName">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>630</y>
+      <x>320</x>
+      <y>30</y>
       <width>261</width>
       <height>16</height>
      </rect>
@@ -629,50 +642,41 @@
     </property>
    </widget>
    <widget class="QLCDNumber" name="loadedCount">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
     <property name="geometry">
      <rect>
-      <x>960</x>
-      <y>640</y>
+      <x>890</x>
+      <y>20</y>
       <width>64</width>
       <height>23</height>
      </rect>
     </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
    </widget>
-   <zorder>listItems</zorder>
-   <zorder>groupBox</zorder>
-   <zorder>comboBox</zorder>
-   <zorder>line</zorder>
-   <zorder>saveFileButton_2</zorder>
-   <zorder>exitButton</zorder>
-   <zorder>openFileButton</zorder>
-   <zorder>line_4</zorder>
-   <zorder>line_5</zorder>
-   <zorder>fileName</zorder>
-   <zorder>HPBase_label</zorder>
-   <zorder>MinDMGScaling</zorder>
-   <zorder>MaxDMGScaling</zorder>
-   <zorder>MinDMGScaling_label</zorder>
-   <zorder>FeverSpeed</zorder>
-   <zorder>HPScaling_label</zorder>
-   <zorder>MinDMG_label</zorder>
-   <zorder>SprintSpeed_label</zorder>
-   <zorder>labelFeverSpeed_label</zorder>
-   <zorder>MaxDMG_label</zorder>
-   <zorder>HPScaling</zorder>
-   <zorder>MinDMG</zorder>
-   <zorder>MaxDMG</zorder>
-   <zorder>SprintSpeed</zorder>
-   <zorder>HPBase</zorder>
-   <zorder>MaxDMGScaling_label</zorder>
-   <zorder>line_3</zorder>
-   <zorder>loadedCount</zorder>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>60</y>
+      <width>261</width>
+      <height>601</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>GroupBox</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1158</width>
+     <width>1155</width>
      <height>21</height>
     </rect>
    </property>
