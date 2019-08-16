@@ -122,8 +122,6 @@ A5 "Slash" - 8-bit
 A6 "Strike" - 8-bit
 A7 "Stab" - 8-bit
 A8 "Crush" - 8-bit
-
-Матвей Иванов, [10.08.19 13:38]
 A9 "Fire" - 8-bit
 AA "Ice" - 8-bit
 AB "Lightning" - 8-bit

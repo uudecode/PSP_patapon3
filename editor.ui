@@ -6,120 +6,560 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1276</width>
-    <height>600</height>
+    <width>1158</width>
+    <height>741</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>Potapon Resource File Editor</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QTabWidget" name="itemDetails">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>10</y>
-      <width>1041</width>
-      <height>511</height>
-     </rect>
-    </property>
-    <property name="currentIndex">
-     <number>0</number>
-    </property>
-    <widget class="QWidget" name="tab_basic_stats">
-     <attribute name="title">
-      <string>Basic Stats</string>
-     </attribute>
-     <widget class="QLabel" name="HPBase_label">
-      <property name="geometry">
-       <rect>
-        <x>10</x>
-        <y>10</y>
-        <width>111</width>
-        <height>16</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>HP Base</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="HPScaling_label">
-      <property name="geometry">
-       <rect>
-        <x>10</x>
-        <y>40</y>
-        <width>111</width>
-        <height>16</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>HP Scaling</string>
-      </property>
-     </widget>
-     <widget class="QLineEdit" name="HPBase">
-      <property name="geometry">
-       <rect>
-        <x>100</x>
-        <y>10</y>
-        <width>113</width>
-        <height>20</height>
-       </rect>
-      </property>
-      <property name="readOnly">
-       <bool>true</bool>
-      </property>
-     </widget>
-     <widget class="QLineEdit" name="HPScaling">
-      <property name="geometry">
-       <rect>
-        <x>100</x>
-        <y>40</y>
-        <width>113</width>
-        <height>20</height>
-       </rect>
-      </property>
-      <property name="readOnly">
-       <bool>true</bool>
-      </property>
-     </widget>
-    </widget>
-    <widget class="QWidget" name="tab_status_effect">
-     <attribute name="title">
-      <string>Status Effects</string>
-     </attribute>
-    </widget>
-    <widget class="QWidget" name="tab_damage_multipliers">
-     <attribute name="title">
-      <string>Damage Multipliers</string>
-     </attribute>
-    </widget>
-    <widget class="QWidget" name="tab_resistance_multipliers">
-     <attribute name="title">
-      <string>Resistance Multipliers</string>
-     </attribute>
-    </widget>
-    <widget class="QWidget" name="tab_switches">
-     <attribute name="title">
-      <string>ПЕРЕКЛЮЧАТЕЛИ</string>
-     </attribute>
-    </widget>
-   </widget>
    <widget class="QListView" name="listItems">
     <property name="geometry">
      <rect>
-      <x>1070</x>
-      <y>30</y>
+      <x>938</x>
+      <y>20</y>
       <width>191</width>
       <height>481</height>
      </rect>
     </property>
    </widget>
-   <widget class="QLabel" name="fileName">
+   <widget class="QLabel" name="HPBase_label">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>40</y>
+      <width>111</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>HP Base</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="MinDMGScaling">
+    <property name="geometry">
+     <rect>
+      <x>129</x>
+      <y>190</y>
+      <width>110</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="MinDMGScaling_label">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>190</y>
+      <width>77</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Min DMG Scaling</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="FeverSpeed">
+    <property name="geometry">
+     <rect>
+      <x>129</x>
+      <y>100</y>
+      <width>110</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="HPScaling_label">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>70</y>
+      <width>111</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>HP Scaling</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="MinDMG_label">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>160</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Min DMG</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="SprintSpeed_label">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>130</y>
+      <width>81</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Sprint Speed</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelFeverSpeed_label">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>100</y>
+      <width>81</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Fever Speed</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="MaxDMG_label">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>220</y>
+      <width>61</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>MaxDMG</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="HPScaling">
+    <property name="geometry">
+     <rect>
+      <x>129</x>
+      <y>70</y>
+      <width>110</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="MinDMG">
+    <property name="geometry">
+     <rect>
+      <x>129</x>
+      <y>160</y>
+      <width>110</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="MaxDMG">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>220</y>
+      <width>110</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="SprintSpeed">
+    <property name="geometry">
+     <rect>
+      <x>129</x>
+      <y>130</y>
+      <width>110</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="HPBase">
+    <property name="geometry">
+     <rect>
+      <x>129</x>
+      <y>40</y>
+      <width>110</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="MaxDMGScaling_label">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>250</y>
+      <width>101</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Max DMG Scaling</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="MaxDMGScaling">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>250</y>
+      <width>110</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>271</width>
+      <height>601</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>BaseStats</string>
+    </property>
+    <widget class="QLabel" name="PowerScaling_label">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>300</y>
+       <width>91</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Power Scaling</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="PowerScaling">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>300</y>
+       <width>111</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="ShieldBreak">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>330</y>
+       <width>111</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="ShieldBreak_label">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>330</y>
+       <width>91</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Shield Break</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="ShieldBreakScaling_label">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>360</y>
+       <width>101</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Shield Break Scaling</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Power_label">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>270</y>
+       <width>91</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Power</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="ShieldBreakScaling">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>360</y>
+       <width>111</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="Power">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>270</y>
+       <width>111</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="Defense">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>390</y>
+       <width>111</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="DefenseScaling">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>420</y>
+       <width>111</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="Evasion">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>450</y>
+       <width>111</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="EvasionScaling">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>480</y>
+       <width>111</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="Weight">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>510</y>
+       <width>111</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="WeightScaling">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>540</y>
+       <width>111</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Defense_label">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>390</y>
+       <width>101</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Defense</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="DefenseScaling_label">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>420</y>
+       <width>101</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Defense Scaling</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Evasion_label">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>450</y>
+       <width>101</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Evasion</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="EvasionScaling_label">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>480</y>
+       <width>101</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Evasion Scaling</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Weight_label">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>510</y>
+       <width>101</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Weight</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="WeightScaling_label">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>540</y>
+       <width>101</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Weight Scaling</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>660</y>
+      <width>231</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="Line" name="line">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>10</y>
+      <width>21</width>
+      <height>691</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>21</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="saveFileButton_2">
+    <property name="geometry">
+     <rect>
+      <x>218</x>
+      <y>660</y>
+      <width>193</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Сохранить файл</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="exitButton">
+    <property name="geometry">
+     <rect>
+      <x>417</x>
+      <y>660</y>
+      <width>192</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Выход</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="openFileButton">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>660</y>
+      <width>192</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string> Открыть файл</string>
+    </property>
+   </widget>
+   <widget class="Line" name="line_4">
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>540</y>
-      <width>331</width>
+      <y>690</y>
+      <width>1141</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_5">
+    <property name="geometry">
+     <rect>
+      <x>1140</x>
+      <y>10</y>
+      <width>21</width>
+      <height>691</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="fileName">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>630</y>
+      <width>261</width>
       <height>16</height>
      </rect>
     </property>
@@ -127,46 +567,64 @@
      <string/>
     </property>
    </widget>
-   <widget class="QWidget" name="">
+   <widget class="Line" name="line_3">
     <property name="geometry">
      <rect>
-      <x>360</x>
-      <y>530</y>
-      <width>591</width>
-      <height>25</height>
+      <x>10</x>
+      <y>-10</y>
+      <width>1141</width>
+      <height>41</height>
      </rect>
     </property>
-    <layout class="QHBoxLayout" name="horizontalLayout">
-     <item>
-      <widget class="QPushButton" name="openFileButton">
-       <property name="text">
-        <string> Открыть файл</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QPushButton" name="saveFileButton">
-       <property name="text">
-        <string>Сохранить файл</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QPushButton" name="exitButton">
-       <property name="text">
-        <string>Выход</string>
-       </property>
-      </widget>
-     </item>
-    </layout>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
    </widget>
+   <widget class="QLCDNumber" name="loadedCount">
+    <property name="geometry">
+     <rect>
+      <x>960</x>
+      <y>640</y>
+      <width>64</width>
+      <height>23</height>
+     </rect>
+    </property>
+   </widget>
+   <zorder>listItems</zorder>
+   <zorder>groupBox</zorder>
+   <zorder>comboBox</zorder>
+   <zorder>line</zorder>
+   <zorder>saveFileButton_2</zorder>
+   <zorder>exitButton</zorder>
+   <zorder>openFileButton</zorder>
+   <zorder>line_4</zorder>
+   <zorder>line_5</zorder>
+   <zorder>fileName</zorder>
+   <zorder>HPBase_label</zorder>
+   <zorder>MinDMGScaling</zorder>
+   <zorder>MaxDMGScaling</zorder>
+   <zorder>MinDMGScaling_label</zorder>
+   <zorder>FeverSpeed</zorder>
+   <zorder>HPScaling_label</zorder>
+   <zorder>MinDMG_label</zorder>
+   <zorder>SprintSpeed_label</zorder>
+   <zorder>labelFeverSpeed_label</zorder>
+   <zorder>MaxDMG_label</zorder>
+   <zorder>HPScaling</zorder>
+   <zorder>MinDMG</zorder>
+   <zorder>MaxDMG</zorder>
+   <zorder>SprintSpeed</zorder>
+   <zorder>HPBase</zorder>
+   <zorder>MaxDMGScaling_label</zorder>
+   <zorder>line_3</zorder>
+   <zorder>loadedCount</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1276</width>
+     <width>1158</width>
      <height>21</height>
     </rect>
    </property>

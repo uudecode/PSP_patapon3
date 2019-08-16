@@ -3,7 +3,7 @@ from struct import unpack_from
 
 from PyQt5 import QtWidgets, QtCore
 from PyQt5.QtGui import QStandardItemModel, QStandardItem, QIntValidator, QDoubleValidator
-from constants import INITIAL_GAP, BLOCK_SIZE, BASIC_STATS, FLOAT_FORMAT, INT_FORMAT
+from constants import INITIAL_GAP, BLOCK_SIZE, BASIC_STATS, FLOAT_FORMAT, INT_FORMAT, END_POINTER
 
 import editor
 
@@ -52,12 +52,13 @@ class EditorApp(QtWidgets.QMainWindow, editor.Ui_MainWindow):
         pointer: int = INITIAL_GAP
         self._all_items = []
         self.item_model = QStandardItemModel(self.listItems)
-        while pointer < len(self._file_content):
+        while pointer < END_POINTER:
             weapon_name = self._file_content[pointer: pointer + 0x10].decode('utf-8')
             self._all_items.append((pointer, weapon_name))
             item = QStandardItem(weapon_name)
             self.item_model.appendRow(item)
             pointer += BLOCK_SIZE
+            self.comboBox.addItem(weapon_name)
         self._logger.debug(self._all_items)
         self.listItems.setModel(self.item_model)
 
