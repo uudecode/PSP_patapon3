@@ -1,5 +1,5 @@
 import logging
-from struct import unpack_from
+from struct import unpack_from, pack_into
 
 from PyQt5 import QtWidgets, QtCore
 from PyQt5.QtGui import QStandardItemModel, QStandardItem, QIntValidator, QDoubleValidator
@@ -15,24 +15,75 @@ class EditorApp(QtWidgets.QMainWindow, editor.Ui_MainWindow):
         self.setupUi(self)  # Это нужно для инициализации нашего дизайна
         self.openFileButton.clicked.connect(self.open_file)
         self.exitButton.clicked.connect(self.exit_app)
+        self.saveFileButton_2.clicked.connect(self.save_file)
         self.comboBox.currentTextChanged.connect(self.process_item)
         self._file_content = None
         self._all_items = []
+        self._file_name = None
         self.item_model = QStandardItemModel(self.comboBox)
         self._only_int = QIntValidator()
         self._only_float = QDoubleValidator()
         self.set_validators()
+        self.set_processor()
+
+    def save_file(self):
+        self._logger.debug('Saving file')
+        if self._file_name is None:
+            error_dialog = QtWidgets.QErrorMessage()
+            error_dialog.showMessage('Файл не загружен, нечего сохранять!')
+            error_dialog.setWindowTitle("Ошибка")
+            error_dialog.exec_()
+        else:
+
+            try:
+                with open(self._file_name, 'wb') as data_file:
+                    data_file.write(self._file_content)
+            except Exception:
+                self._logger.exception('Write error')
+
+    def process_edited_item(self, text):
+        line_edit = self.sender()
+        object_name = line_edit.objectName()
+        current_stat = next(item for item in BASIC_STATS if item[1] == object_name)
+        current_stat_offset = current_stat[0]
+        current_stat_format = current_stat[2]
+        current_item_name = self.comboBox.currentText()
+        current_item = next(item for item in self._all_items if item[0] == current_item_name)
+        current_block_offset = current_item[1]
+        self._logger.debug('Changed value %s for %s item %s', text, object_name, current_item)
+        if current_stat_format == FLOAT_FORMAT:
+            value = float(text.replace(',', '.'))
+        elif current_stat_format == INT_FORMAT:
+            value = float(text.replace(',', '.'))
+        else:
+            raise ValueError('Неподдерживаемый формат %s !', current_stat_format)
+        pack_into(current_stat_format,
+                  self._file_content,
+                  current_block_offset + current_stat_offset,
+                  value)
+
+    def set_processor(self):
+        for element in BASIC_STATS:
+            line_edit = self.findChild(QtWidgets.QLineEdit, element[1])
+            if line_edit is not None:
+                line_edit.textEdited.connect(self.process_edited_item)
 
     def open_file(self):
         self._logger.debug('Opening file')
         try:
             input_file = QtWidgets.QFileDialog.getOpenFileName(self, 'Выберите файл')
-            self._logger.info('Input file: %s', input_file[0])
-            with open(input_file[0], 'rb') as data_file:
+            self._file_name = input_file[0]
+            self._logger.info('Input file: %s', self._file_name)
+            with open(self._file_name, 'rb') as data_file:
                 self._file_content = bytearray(data_file.read())
+            self.bck = self._file_content.copy()
             file_length = len(self._file_content)
             self._logger.info('Read %s bytes', file_length)
             if self._file_content[0:6] != bytearray.fromhex('5947465f4746'):
+                error_dialog = QtWidgets.QErrorMessage()
+                error_dialog.showMessage('Неопознанный формат файла!')
+                error_dialog.setWindowTitle("Ошибка")
+                error_dialog.exec_()
                 raise ValueError('Неопознанный формат файла!')
             self.fileName.setText(input_file[0])
             self.get_all_names()
