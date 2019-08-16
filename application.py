@@ -15,10 +15,10 @@ class EditorApp(QtWidgets.QMainWindow, editor.Ui_MainWindow):
         self.setupUi(self)  # Это нужно для инициализации нашего дизайна
         self.openFileButton.clicked.connect(self.open_file)
         self.exitButton.clicked.connect(self.exit_app)
-        self.listItems.clicked.connect(self.process_item)
+        self.comboBox.currentTextChanged.connect(self.process_item)
         self._file_content = None
         self._all_items = []
-        self.item_model = QStandardItemModel(self.listItems)
+        self.item_model = QStandardItemModel(self.comboBox)
         self._only_int = QIntValidator()
         self._only_float = QDoubleValidator()
         self.set_validators()
@@ -41,7 +41,7 @@ class EditorApp(QtWidgets.QMainWindow, editor.Ui_MainWindow):
             self._logger.exception('При открытии файла произошла ошибка')
             self._file_content = None
             self._all_items = []
-            self.item_model = QStandardItemModel(self.listItems)
+            self.item_model = QStandardItemModel(self.comboBox)
             self.fileName.setText('')
 
     def exit_app(self):
@@ -50,23 +50,24 @@ class EditorApp(QtWidgets.QMainWindow, editor.Ui_MainWindow):
 
     def get_all_names(self):
         pointer: int = INITIAL_GAP
+        loaded_quantity: int = 0
         self._all_items = []
-        self.item_model = QStandardItemModel(self.listItems)
+        self.item_model = QStandardItemModel(self.comboBox)
         while pointer < END_POINTER:
-            weapon_name = self._file_content[pointer: pointer + 0x10].decode('utf-8')
-            self._all_items.append((pointer, weapon_name))
+            weapon_name = self._file_content[pointer: pointer + 0x10].decode('utf-8').strip('\x00')
+            self._all_items.append((weapon_name, pointer))
             item = QStandardItem(weapon_name)
             self.item_model.appendRow(item)
             pointer += BLOCK_SIZE
-            self.comboBox.addItem(weapon_name)
+            loaded_quantity += 1
         self._logger.debug(self._all_items)
-        self.listItems.setModel(self.item_model)
+        self.comboBox.setModel(self.item_model)
+        self.loadedCount.display(loaded_quantity)
 
-    def process_item(self, index):
-        self._logger.debug(self._all_items[index.row()])
+    def process_item(self, text):
         try:
             self.set_values_editable()
-            offset = self._all_items[index.row()][0]
+            offset = next(item for item in self._all_items if item[0] == text)[1]
             block = self._file_content[offset:offset + BLOCK_SIZE]
             self._logger.debug(block)
             for element in BASIC_STATS:
