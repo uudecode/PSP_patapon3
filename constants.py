@@ -6,6 +6,7 @@ END_POINTER = 0x52088
 BLOCK_SIZE = 0x188
 FLOAT_FORMAT = '<f'
 INT_FORMAT = '<i'
+BOOL_FORMAT = '?'
 BASIC_STATS: List[Tuple] = [(0x24, 'HPBase', FLOAT_FORMAT),
                             (0x28, 'HPScaling', FLOAT_FORMAT),
                             (0x30, 'FeverSpeed', FLOAT_FORMAT),
@@ -25,4 +26,10 @@ BASIC_STATS: List[Tuple] = [(0x24, 'HPBase', FLOAT_FORMAT),
                             (0x100, 'EvasionScaling', FLOAT_FORMAT),
                             (0x104, 'Weight', FLOAT_FORMAT),
                             (0x108, 'WeightScaling', FLOAT_FORMAT),
+                            (0x70, 'CritBase', FLOAT_FORMAT),
+                            (0x8C, 'CritScaling', FLOAT_FORMAT),
+                            (0x74, 'KBBase', FLOAT_FORMAT),
+                            (0x90, 'KBScaling', FLOAT_FORMAT),
+                            ]
+CHECK_BOXES: List[Tuple] = [(0xA5, 'Slash', BOOL_FORMAT),
                             ]

@@ -1,5 +1,6 @@
 import sys
 import logging
+import dll_corrections
 from PyQt5 import QtWidgets
 from constants import LOGGING_FORMAT
 from application import EditorApp

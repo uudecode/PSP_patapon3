@@ -3,7 +3,8 @@ from struct import unpack_from, pack_into
 
 from PyQt5 import QtWidgets, QtCore
 from PyQt5.QtGui import QStandardItemModel, QStandardItem, QIntValidator, QDoubleValidator
-from constants import INITIAL_GAP, BLOCK_SIZE, BASIC_STATS, FLOAT_FORMAT, INT_FORMAT, END_POINTER
+from constants import (INITIAL_GAP, BLOCK_SIZE, BASIC_STATS, FLOAT_FORMAT, INT_FORMAT, END_POINTER, CHECK_BOXES,
+                       BOOL_FORMAT)
 
 import editor
 
@@ -127,6 +128,11 @@ class EditorApp(QtWidgets.QMainWindow, editor.Ui_MainWindow):
                 line_edit = self.findChild(QtWidgets.QLineEdit, element[1])
                 if line_edit is not None:
                     line_edit.setText(str(value).replace('.', ','))
+            for element in CHECK_BOXES:
+                value = unpack_from(element[2], block, element[0])[0]
+                check_box = self.findChild(QtWidgets.QCheckBox, element[1])
+                if check_box is not None:
+                    check_box.setChecked(value)
 
         except Exception:
             self._logger.exception('При загрузке данных элемента произошла ошибка')
@@ -149,9 +155,17 @@ class EditorApp(QtWidgets.QMainWindow, editor.Ui_MainWindow):
             line_edit = self.findChild(QtWidgets.QLineEdit, element[1])
             if line_edit is not None:
                 line_edit.setReadOnly(True)
+        for element in CHECK_BOXES:
+            check_box = self.findChild(QtWidgets.QCheckBox, element[1])
+            if check_box is not None:
+                check_box.setProperty('checkable', False)
 
     def set_values_editable(self):
         for element in BASIC_STATS:
             line_edit = self.findChild(QtWidgets.QLineEdit, element[1])
             if line_edit is not None:
                 line_edit.setReadOnly(False)
+        for element in CHECK_BOXES:
+            check_box = self.findChild(QtWidgets.QCheckBox, element[1])
+            if check_box is not None:
+                check_box.setProperty('checkable', True)
