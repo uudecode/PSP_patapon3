@@ -883,17 +883,17 @@
       </rect>
      </property>
     </widget>
-    <widget class="QCheckBox" name="Slash">
+    <widget class="QCheckBox" name="Crush">
      <property name="geometry">
       <rect>
-       <x>400</x>
-       <y>190</y>
+       <x>340</x>
+       <y>40</y>
        <width>70</width>
        <height>17</height>
       </rect>
      </property>
      <property name="text">
-      <string>CheckBox</string>
+      <string>Crush</string>
      </property>
      <property name="checkable">
       <bool>false</bool>

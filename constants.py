@@ -31,5 +31,5 @@ BASIC_STATS: List[Tuple] = [(0x24, 'HPBase', FLOAT_FORMAT),
                             (0x74, 'KBBase', FLOAT_FORMAT),
                             (0x90, 'KBScaling', FLOAT_FORMAT),
                             ]
-CHECK_BOXES: List[Tuple] = [(0xA5, 'Slash', BOOL_FORMAT),
+CHECK_BOXES: List[Tuple] = [(0xA5, 'Crush', BOOL_FORMAT),
                             ]
