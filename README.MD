@@ -84,7 +84,7 @@ A4 "Poison Rate Scaling" - float (single 32-bit)
 15C "Poison Res" - float (single 32-bit) 
 178 "Poison Res Scaling" - float (single 32-bit)
 
-Эти подписать как "Damage Multipliers"
+Эти подписать как "Damage Multiplie"rs
 B4 "Demons X" - float (single 32-bit)
 D4 "Demons X Scaling" - float (single 32-bit)
 B8 "Undead X" - float (single 32-bit)
