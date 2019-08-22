@@ -3,7 +3,8 @@ from struct import unpack_from, pack_into
 
 from PyQt5 import QtWidgets, QtCore
 from PyQt5.QtGui import QStandardItemModel, QStandardItem, QIntValidator, QDoubleValidator
-from constants import (INITIAL_GAP, BLOCK_SIZE, BASIC_STATS, FLOAT_FORMAT, INT_FORMAT, END_POINTER, CHECK_BOXES,
+from constants import (INITIAL_GAP, BLOCK_SIZE, BASIC_STATS, FLOAT_FORMAT, INT_FORMAT, END_POINTER,
+                       CHECK_BOXES,
                        BOOL_FORMAT)
 
 import editor

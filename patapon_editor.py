@@ -5,7 +5,6 @@ from PyQt5 import QtWidgets
 from constants import LOGGING_FORMAT
 from application import EditorApp
 
-
 if __name__ == '__main__':
     logging.basicConfig(level=logging.DEBUG, format=LOGGING_FORMAT)
     logger = logging.getLogger('Editor Patapon file')

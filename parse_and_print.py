@@ -10,12 +10,13 @@ BLOCK_SIZE = 0x188
 BASIC_STATS: List[Tuple] = [(0x24, 'HP Base', '<f'),
                             (0x28, 'HP Scaling', '<f')]
 
+
 def print_weapon_info(block: bytearray) -> None:
     weapon_name = block[0: 0 + 0x10].decode('utf-8')
     print(f'Weapon: {weapon_name}')
     print('Basic stats')
     for element in BASIC_STATS:
-        value = unpack_from(element[2], block,element[0])
+        value = unpack_from(element[2], block, element[0])
         print(f'{element[1]} {value}')
 
 

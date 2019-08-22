@@ -81,26 +81,7 @@ BASIC_STATS: List[Tuple] = [(0x24, 'HPBase', FLOAT_FORMAT),
                             (0x138, 'SoundX', FLOAT_FORMAT),
                             (0x13C, 'LightX', FLOAT_FORMAT),
                             (0x13C, 'DarkX', FLOAT_FORMAT),
-
-
                             ]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 CHECK_BOXES: List[Tuple] = [(0xA4, 'Slash', BOOL_FORMAT),
                             (0xA5, 'Strike', BOOL_FORMAT),
@@ -124,12 +105,4 @@ CHECK_BOXES: List[Tuple] = [(0xA4, 'Slash', BOOL_FORMAT),
                             (0x184, 'PoisonImm', BOOL_FORMAT),
                             (0x185, 'TumbleImm', BOOL_FORMAT),
 
-
-
-
-
                             ]
-
-
-
-
