@@ -26,7 +26,7 @@
     <property name="title">
      <string>BaseStats</string>
     </property>
-    <widget class="QWidget" name="">
+    <widget class="QWidget" name="layoutWidget">
      <property name="geometry">
       <rect>
        <x>109</x>
@@ -170,7 +170,7 @@
       </item>
      </layout>
     </widget>
-    <widget class="QWidget" name="">
+    <widget class="QWidget" name="layoutWidget">
      <property name="geometry">
       <rect>
        <x>10</x>
@@ -467,7 +467,7 @@
     <property name="title">
      <string>Status Effects</string>
     </property>
-    <widget class="QWidget" name="">
+    <widget class="QWidget" name="layoutWidget">
      <property name="geometry">
       <rect>
        <x>6</x>
@@ -675,7 +675,7 @@
       </item>
      </layout>
     </widget>
-    <widget class="QWidget" name="">
+    <widget class="QWidget" name="layoutWidget">
      <property name="geometry">
       <rect>
        <x>110</x>
@@ -1573,6 +1573,22 @@
       <bool>false</bool>
      </property>
     </widget>
+    <widget class="QCheckBox" name="Pierce">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>150</y>
+       <width>70</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Pierce</string>
+     </property>
+     <property name="checkable">
+      <bool>false</bool>
+     </property>
+    </widget>
    </widget>
    <widget class="QGroupBox" name="groupBox_5">
     <property name="geometry">
@@ -1744,8 +1760,8 @@
    <widget class="QLineEdit" name="Tag00">
     <property name="geometry">
      <rect>
-      <x>990</x>
-      <y>20</y>
+      <x>1270</x>
+      <y>50</y>
       <width>113</width>
       <height>20</height>
      </rect>
@@ -1757,8 +1773,8 @@
    <widget class="QLabel" name="label_5">
     <property name="geometry">
      <rect>
-      <x>960</x>
-      <y>20</y>
+      <x>1240</x>
+      <y>50</y>
       <width>21</width>
       <height>16</height>
      </rect>

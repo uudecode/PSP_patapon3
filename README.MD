@@ -141,4 +141,3 @@ B1 "Venom" - 8-bit
 180 "Ice Imm" - 8-bit
 181 "Poison Imm" - 8-bit
 182 "Tumble Imm" - 8-bit
-И было бы очень круто, если бы при нажатии Enter или Tab курсор кидало на следующее поле
