@@ -860,6 +860,6 @@ class Ui_MainWindow(object):
         self.KBImm.setText(_translate("MainWindow", "KB Imm"))
         self.IceImm.setText(_translate("MainWindow", "Ice Imm"))
         self.label_3.setText(_translate("MainWindow", "<a href=\"https://github.com/Goldmoyai\">https://github.com/Goldmoyai</a>"))
-        self.label_4.setText(_translate("MainWindow", "<html><head/><body><p><img src=\":/peppapon/patapon_editor.png\"/></p></body></html>"))
+        self.label_4.setText(_translate("MainWindow", "<html><head/><body><p><img src=\":/peppapon/patapon_editor1.png\"/></p></body></html>"))
         self.label_5.setText(_translate("MainWindow", "Tag"))
 import peppapon_rc
