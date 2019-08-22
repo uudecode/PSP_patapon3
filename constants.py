@@ -104,5 +104,7 @@ CHECK_BOXES: List[Tuple] = [(0xA4, 'Slash', BOOL_FORMAT),
                             (0x183, 'IceImm', BOOL_FORMAT),
                             (0x184, 'PoisonImm', BOOL_FORMAT),
                             (0x185, 'TumbleImm', BOOL_FORMAT),
-
                             ]
+
+TAGS:  List[Tuple] = [(0x20, 'Tag00', INT_FORMAT),
+                      ]

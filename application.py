@@ -5,7 +5,7 @@ from PyQt5 import QtWidgets, QtCore
 from PyQt5.QtGui import QStandardItemModel, QStandardItem, QIntValidator, QDoubleValidator
 from constants import (INITIAL_GAP, BLOCK_SIZE, STATS, FLOAT_FORMAT, INT_FORMAT, END_POINTER,
                        CHECK_BOXES,
-                       BOOL_FORMAT)
+                       BOOL_FORMAT, TAGS)
 
 import editor
 
@@ -152,6 +152,11 @@ class EditorApp(QtWidgets.QMainWindow, editor.Ui_MainWindow):
                 check_box = self.findChild(QtWidgets.QCheckBox, element[1])
                 if check_box is not None:
                     check_box.setChecked(value)
+            for element in TAGS:
+                value = unpack_from(element[2], block, element[0])[0]
+                line_edit = self.findChild(QtWidgets.QLineEdit, element[1])
+                if line_edit is not None:
+                    line_edit.setText(str(value).replace('.', ','))
 
         except Exception:
             self._logger.exception('При загрузке данных элемента произошла ошибка')
