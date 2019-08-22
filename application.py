@@ -3,7 +3,7 @@ from struct import unpack_from, pack_into
 
 from PyQt5 import QtWidgets, QtCore
 from PyQt5.QtGui import QStandardItemModel, QStandardItem, QIntValidator, QDoubleValidator
-from constants import (INITIAL_GAP, BLOCK_SIZE, BASIC_STATS, FLOAT_FORMAT, INT_FORMAT, END_POINTER,
+from constants import (INITIAL_GAP, BLOCK_SIZE, STATS, FLOAT_FORMAT, INT_FORMAT, END_POINTER,
                        CHECK_BOXES,
                        BOOL_FORMAT)
 
@@ -43,10 +43,24 @@ class EditorApp(QtWidgets.QMainWindow, editor.Ui_MainWindow):
             except Exception:
                 self._logger.exception('Write error')
 
+    def process_changed_checkbox(self, state):
+        checkbox = self.sender()
+        object_name = checkbox.objectName()
+        current_box = next(item for item in CHECK_BOXES if item[1] == object_name)
+        current_box_offset = current_box[0]
+        current_box_format = current_box[2]
+        current_item_name = self.comboBox.currentText()
+        current_item = next(item for item in self._all_items if item[0] == current_item_name)
+        current_block_offset = current_item[1]
+        pack_into(current_box_format,
+                  self._file_content,
+                  current_block_offset + current_box_offset,
+                  state)
+
     def process_edited_item(self, text):
         line_edit = self.sender()
         object_name = line_edit.objectName()
-        current_stat = next(item for item in BASIC_STATS if item[1] == object_name)
+        current_stat = next(item for item in STATS if item[1] == object_name)
         current_stat_offset = current_stat[0]
         current_stat_format = current_stat[2]
         current_item_name = self.comboBox.currentText()
@@ -65,10 +79,14 @@ class EditorApp(QtWidgets.QMainWindow, editor.Ui_MainWindow):
                   value)
 
     def set_processor(self):
-        for element in BASIC_STATS:
+        for element in STATS:
             line_edit = self.findChild(QtWidgets.QLineEdit, element[1])
             if line_edit is not None:
                 line_edit.textEdited.connect(self.process_edited_item)
+        for element in CHECK_BOXES:
+            check_box = self.findChild(QtWidgets.QCheckBox, element[1])
+            if check_box is not None:
+                check_box.stateChanged.connect(self.process_changed_checkbox)
 
     def open_file(self):
         self._logger.debug('Opening file')
@@ -123,7 +141,7 @@ class EditorApp(QtWidgets.QMainWindow, editor.Ui_MainWindow):
             offset = next(item for item in self._all_items if item[0] == text)[1]
             block = self._file_content[offset:offset + BLOCK_SIZE]
             self._logger.debug(block)
-            for element in BASIC_STATS:
+            for element in STATS:
                 value = unpack_from(element[2], block, element[0])[0]
                 self._logger.debug('Value: %s', value)
                 line_edit = self.findChild(QtWidgets.QLineEdit, element[1])
@@ -141,7 +159,7 @@ class EditorApp(QtWidgets.QMainWindow, editor.Ui_MainWindow):
 
     def set_validators(self):
         self._logger.debug('SetValidators')
-        for element in BASIC_STATS:
+        for element in STATS:
             self._logger.debug('x00: %s', element)
             line_edit = self.findChild(QtWidgets.QLineEdit, element[1])
             if line_edit is not None:
@@ -152,7 +170,7 @@ class EditorApp(QtWidgets.QMainWindow, editor.Ui_MainWindow):
                     line_edit.setValidator(self._only_int)
 
     def set_values_readonly(self):
-        for element in BASIC_STATS:
+        for element in STATS:
             line_edit = self.findChild(QtWidgets.QLineEdit, element[1])
             if line_edit is not None:
                 line_edit.setReadOnly(True)
@@ -162,7 +180,7 @@ class EditorApp(QtWidgets.QMainWindow, editor.Ui_MainWindow):
                 check_box.setProperty('checkable', False)
 
     def set_values_editable(self):
-        for element in BASIC_STATS:
+        for element in STATS:
             line_edit = self.findChild(QtWidgets.QLineEdit, element[1])
             if line_edit is not None:
                 line_edit.setReadOnly(False)
